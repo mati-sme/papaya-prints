@@ -39,6 +39,9 @@
     <symbol id="s-slab" viewBox="0 0 120 90"><path d="M60 26 108 46 60 66 12 46Z M12 46v9l48 20 48-20v-9 M60 66v9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><g fill="currentColor"><circle cx="60" cy="46" r="2"/><circle cx="44" cy="39.5" r="2"/><circle cx="76" cy="52.5" r="2"/><circle cx="76" cy="39.5" r="2"/><circle cx="44" cy="52.5" r="2"/></g></symbol>
     <symbol id="s-cyl" viewBox="0 0 120 90"><path d="M30 26a30 12 0 1 0 60 0a30 12 0 1 0-60 0Z M30 26v38a30 12 0 0 0 60 0V26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
     <symbol id="s-ring" viewBox="0 0 120 90"><path d="M20 42a40 16 0 1 0 80 0a40 16 0 1 0-80 0Z M44 42a16 6 0 1 0 32 0a16 6 0 1 0-32 0Z M20 42v12a40 16 0 0 0 80 0V42" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="s-plate" viewBox="0 0 120 90"><rect x="16" y="14" width="88" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="25" cy="32" r="2.2" fill="currentColor"/><circle cx="95" cy="32" r="2.2" fill="currentColor"/><path d="M38 40V26l5-6 5 6v14M38 34h10M58 26v14M58 26h9M58 33h7M74 26v14M74 40h7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M60 50v18a9 9 0 0 0 18 0v-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="s-switch" viewBox="0 0 120 90"><rect x="34" y="8" width="52" height="74" rx="7" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="47" y="26" width="26" height="38" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M47 45h26M52 30h16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="60" cy="16" r="2.2" fill="currentColor"/><circle cx="60" cy="74" r="2.2" fill="currentColor"/></symbol>
+    <symbol id="s-lens" viewBox="0 0 120 90"><circle cx="48" cy="38" r="27" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="48" cy="38" r="20" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M68 58l24 24M88 66l-6 6M96 72l-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M92 8v26M86 8h12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
     <symbol id="s-hull" viewBox="0 0 120 90"><path d="M10 40H110L96 66Q60 82 24 66Z M10 40Q60 54 110 40 M44 40l6-14h20l6 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
   </defs>
 </svg>
@@ -53,10 +56,15 @@
       <span class="brand-word" dir="ltr">Papaya<span>Prints</span></span>
     </a>
 
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-      <span class="nav-toggle-bars" aria-hidden="true"></span>
-      <span class="visually-hidden">תפריט</span>
-    </button>
+    <div class="header-actions">
+      <a class="btn btn-primary header-wa" href="#contact" data-wa="general" aria-label="שלחו הודעה בוואטסאפ">
+        <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="visually-hidden">תפריט</span>
+      </button>
+    </div>
 
     <nav id="site-nav" class="site-nav" aria-label="ניווט ראשי">
       <ul>
@@ -80,7 +88,7 @@
   <section class="hero" id="top" aria-labelledby="hero-title">
     <div class="wrap hero-grid">
       <div class="hero-copy">
-        <h1 id="hero-title">החלק שחסר לכם, <br>מתוכנן ומודפס ברעננה</h1>
+        <h1 id="hero-title">החלק שחסר לכם, <br><span class="hl">מתוכנן ומודפס</span> ברעננה</h1>
         <p class="lead">תיקונים פונקציונליים, מתקנים ומתנות בהתאמה אישית. שולחים תמונה ומידות, מקבלים תכנון לאישור, ורק אז מדפיסים.</p>
         <div class="cta-row">
           <a class="btn btn-primary btn-lg" href="#contact" data-wa="general">
@@ -93,7 +101,7 @@
           </a>
         </div>
         <ul class="chips" aria-label="במה אנחנו עוזרים">
-          <li class="chip"><span dir="ltr">PLA · PETG</span></li>
+          <li class="chip"><bdi class="mono" dir="ltr">PLA · PETG</bdi></li>
           <li class="chip">עד 4 צבעים בהדפסה אחת</li>
           <li class="chip">תכנון בהתאמה אישית</li>
           <li class="chip">איסוף ברעננה</li>
@@ -101,14 +109,10 @@
       </div>
 
       <figure class="hero-media bp-frame">
-        <img src="assets/img/solder-feeder-closeup.webp" width="1200" height="750"
-             alt="הדמיית תלת-ממד של מזין בדיל כתום על האצבע: כפתור קטן על הטבעת, ומתחתיה צינורית פליז שהבדיל יוצא ממנה"
+        <img src="assets/img/solder-feeder-hand.webp" width="1200" height="750"
+             alt="הדמיית תלת-ממד של יד עם מזין בדיל כתום: כפתור על קצה האצבע ויחידה על פרק כף היד שדוחפת את הבדיל"
              fetchpriority="high">
-        <figcaption class="bp-caption">
-          <span class="mono">PETG</span>
-          <span>מזין בדיל לפרק כף היד, מתוכנן אצלנו</span>
-        </figcaption>
-      </figure>
+        </figure>
     </div>
   </section>
 
@@ -134,7 +138,7 @@
             <h3>מזין בדיל לפרק כף היד</h3>
             <p>לוחצים על כפתור בקצה האצבע, והיחידה שעל פרק היד דוחפת בדיל קדימה. יד אחת על הלוח, יד אחת על המלחם.</p>
             <div class="card-foot">
-              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <span class="price" data-placeholder="price">החל מ-<bdi class="mono">₪__</bdi></span>
               <a class="btn btn-wa" href="#contact" data-wa-product="מזין בדיל לפרק כף היד">להזמנה בוואטסאפ</a>
             </div>
           </div>
@@ -142,16 +146,16 @@
 
         <article class="card" data-product="מאריך ידית בלם לאופני ילדים">
           <div class="card-media bp-frame bp-light">
-            <img class="contain" src="assets/img/brake-lever-extender-drawing.webp" width="450" height="675" loading="lazy"
+            <img class="contain" src="assets/img/brake-lever-extender-drawing.webp" width="339" height="565" loading="lazy"
                  alt="שרטוט תכנון כחול, מבט מלמעלה, של מאריך ידית בלם בגודל 70 על 40 מילימטר">
             <span class="bp-caption bp-caption-float">שרטוט תכנון · מבט מלמעלה</span>
           </div>
           <div class="card-body">
-            <div class="tags"><span class="tag tag-mat">PETG</span><span class="tag mono"><bdi>70×40×14</bdi> מ״מ</span><span class="tag mono"><bdi>~17</bdi> גר׳</span></div>
+            <div class="tags"><span class="tag tag-mat">PETG</span><span class="tag"><bdi class="mono">70×40×14</bdi> מ״מ</span><span class="tag"><bdi class="mono">~17</bdi> גר׳</span></div>
             <h3>מאריך ידית בלם לאופני ילדים</h3>
             <p>חלק אחד שמתחבר בקשיות כבלים, כך שילד בן 6 מגיע לבלם באופניים של 20 אינץ׳ בלי להתאמץ.</p>
             <div class="card-foot">
-              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <span class="price" data-placeholder="price">החל מ-<bdi class="mono">₪__</bdi></span>
               <a class="btn btn-wa" href="#contact" data-wa-product="מאריך ידית בלם לאופני ילדים">להזמנה בוואטסאפ</a>
             </div>
           </div>
@@ -170,7 +174,7 @@
             <h3>מתקן סקאדיס (<bdi>IKEA SKÅDIS</bdi>) למברגה + מעמד ביטים</h3>
             <p>המברגה והביטים במקום קבוע על הלוח, ביד כשצריך אותם.</p>
             <div class="card-foot">
-              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <span class="price" data-placeholder="price">החל מ-<bdi class="mono">₪__</bdi></span>
               <a class="btn btn-wa" href="#contact" data-wa-product="מתקן סקאדיס (IKEA SKÅDIS) למברגה + מעמד ביטים">להזמנה בוואטסאפ</a>
             </div>
           </div>
@@ -189,7 +193,7 @@
             <h3>מעמד לסניץ' הזהב</h3>
             <p>מעמד תצוגה לסניץ' על המדף, בצבעי זהב ושחור.</p>
             <div class="card-foot">
-              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <span class="price" data-placeholder="price">החל מ-<bdi class="mono">₪__</bdi></span>
               <a class="btn btn-wa" href="#contact" data-wa-product="מעמד לסניץ' הזהב">להזמנה בוואטסאפ</a>
             </div>
           </div>
@@ -208,7 +212,7 @@
             <h3>סירת בנצ'י בצבעי פפאיה ושחור</h3>
             <p>סירה קטנה בהשראת עולם הפורמולה 1, בכתום ובשחור.</p>
             <div class="card-foot">
-              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <span class="price" data-placeholder="price">החל מ-<bdi class="mono">₪__</bdi></span>
               <a class="btn btn-wa" href="#contact" data-wa-product="סירת בנצ'י בצבעי פפאיה ושחור">להזמנה בוואטסאפ</a>
             </div>
           </div>
@@ -218,7 +222,7 @@
           <div class="card-media">
             <!-- PLACEHOLDER: replace with real photo -->
             <div class="ph" data-placeholder="replace-with-photo" role="img" aria-label="מקום שמור לתמונה: חלקי תיקון לבית ולמכשירי חשמל">
-              <svg class="ph-shape" aria-hidden="true"><use href="#s-cube"/></svg>
+              <svg class="ph-shape" aria-hidden="true"><use href="#s-switch"/></svg>
               <span class="ph-label">תמונה תתווסף בקרוב</span>
             </div>
           </div>
@@ -227,7 +231,7 @@
             <h3>תיקונים לבית ולמכשירי חשמל</h3>
             <p>בסיס רחב לידית מפסק, קליפסים חלופיים וחלקים קטנים שהיצרן הפסיק למכור.</p>
             <div class="card-foot">
-              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <span class="price" data-placeholder="price">החל מ-<bdi class="mono">₪__</bdi></span>
               <a class="btn btn-wa" href="#contact" data-wa-product="תיקונים לבית ולמכשירי חשמל">להזמנה בוואטסאפ</a>
             </div>
           </div>
@@ -237,7 +241,7 @@
           <div class="card-media">
             <!-- PLACEHOLDER: replace with real photo -->
             <div class="ph" data-placeholder="replace-with-photo" role="img" aria-label="מקום שמור לתמונה: מתאם לזרוע עוזרת וזכוכית מגדלת">
-              <svg class="ph-shape" aria-hidden="true"><use href="#s-ring"/></svg>
+              <svg class="ph-shape" aria-hidden="true"><use href="#s-lens"/></svg>
               <span class="ph-label">תמונה תתווסף בקרוב</span>
             </div>
           </div>
@@ -246,7 +250,7 @@
             <h3>מתאם לזרוע עוזרת + זכוכית מגדלת</h3>
             <p>מחבר את הזכוכית המגדלת לזרוע העוזרת, ומשאיר לכם שתי ידיים פנויות ללחמה.</p>
             <div class="card-foot">
-              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <span class="price" data-placeholder="price">החל מ-<bdi class="mono">₪__</bdi></span>
               <a class="btn btn-wa" href="#contact" data-wa-product="מתאם לזרוע עוזרת + זכוכית מגדלת">להזמנה בוואטסאפ</a>
             </div>
           </div>
@@ -256,7 +260,7 @@
           <div class="card-media">
             <!-- PLACEHOLDER: replace with real photo -->
             <div class="ph" data-placeholder="replace-with-photo" role="img" aria-label="מקום שמור לתמונה: שמות, וו תליה וצעצועים לילדים">
-              <svg class="ph-shape" aria-hidden="true"><use href="#s-cube"/></svg>
+              <svg class="ph-shape" aria-hidden="true"><use href="#s-plate"/></svg>
               <span class="ph-label">תמונה תתווסף בקרוב</span>
             </div>
           </div>
@@ -265,7 +269,7 @@
             <h3>פריטים לילדים</h3>
             <p>שמות לדלת החדר, וו תליה וצעצועים קטנים, בצבעים שהם בוחרים.</p>
             <div class="card-foot">
-              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <span class="price" data-placeholder="price">החל מ-<bdi class="mono">₪__</bdi></span>
               <a class="btn btn-wa" href="#contact" data-wa-product="פריטים לילדים">להזמנה בוואטסאפ</a>
             </div>
           </div>
@@ -302,7 +306,7 @@
         <h3 id="receive-title" class="sub">מה מקבלים בחזרה</h3>
         <p>הדמיה או שרטוט של החלק לפני שמדפיסים. מאשרים, מבקשים שינוי אם צריך, ורק אז יוצאים להדפסה.</p>
         <figure class="bp-frame bp-light receive-fig">
-          <img class="contain" src="assets/img/brake-lever-extender-drawing.webp" width="450" height="675" loading="lazy"
+          <img class="contain" src="assets/img/brake-lever-extender-drawing.webp" width="339" height="565" loading="lazy"
                alt="דוגמה לשרטוט תכנון: מבט מלמעלה של מאריך ידית בלם, עם סרגל מידות במילימטרים">
           <figcaption class="bp-caption bp-caption-float">דוגמה: שרטוט תכנון</figcaption>
         </figure>
@@ -318,17 +322,17 @@
       </div>
       <ol class="steps">
         <li class="step">
-          <span class="step-n mono" aria-hidden="true">1</span>
+          <span class="step-n" aria-hidden="true">1</span>
           <h3>שולחים</h3>
           <p>תמונה ומידות בוואטסאפ. אפשר גם סתם לשאול אם זה אפשרי.</p>
         </li>
         <li class="step">
-          <span class="step-n mono" aria-hidden="true">2</span>
+          <span class="step-n" aria-hidden="true">2</span>
           <h3>מתכננים ומאשרים</h3>
           <p>מחזירים לכם הדמיה והצעת מחיר. משנים עד שזה בדיוק מה שצריך.</p>
         </li>
         <li class="step">
-          <span class="step-n mono" aria-hidden="true">3</span>
+          <span class="step-n" aria-hidden="true">3</span>
           <h3>מדפיסים ואוספים</h3>
           <p>מדפיסים ברעננה, ואתם אוספים או מקבלים במשלוח.</p>
         </li>
@@ -469,7 +473,7 @@
       </ul>
     </nav>
     <p class="footer-note">© <span id="year">2026</span> <span dir="ltr">Papaya Prints</span>, רעננה<br>
-      <span class="mono">מודפס על <bdi dir="ltr">Bambu Lab P2S</bdi></span></p>
+      מודפס על <bdi class="mono" dir="ltr">Bambu Lab P2S</bdi></p>
   </div>
 </footer>
 
