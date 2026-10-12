@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Papaya Prints | הדפסות תלת-ממד בהתאמה אישית ברעננה</title>
+  <meta name="description" content="Papaya Prints: מתכננים ומדפיסים בתלת-ממד ברעננה. תיקונים, מתקנים, מתנות וחלקים פונקציונליים בהתאמה אישית. שולחים תמונה ומידות בוואטסאפ ומקבלים תכנון לאישור.">
+  <meta name="theme-color" content="#EDF1EE" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1412" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- PLACEHOLDER: replace og:url / og:image with the real domain and a 1200x630 share image -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="he_IL">
+  <meta property="og:site_name" content="Papaya Prints">
+  <meta property="og:title" content="Papaya Prints | הדפסות תלת-ממד בהתאמה אישית ברעננה">
+  <meta property="og:description" content="שולחים תמונה ומידות, מקבלים תכנון לאישור, ואנחנו מדפיסים. תיקונים, מתקנים ומתנות בהתאמה אישית.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://example.com/assets/img/solder-feeder-closeup.webp">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Rubik:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- Icon + placeholder-shape sprite (decorative) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3Z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.8-2-1-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1-2z" fill="currentColor"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.75"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.75"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+
+    <symbol id="s-cube" viewBox="0 0 120 90"><path d="M60 12 100 34 60 56 20 34Z M20 34V64L60 86V56 M100 34V64L60 86" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="s-slab" viewBox="0 0 120 90"><path d="M60 26 108 46 60 66 12 46Z M12 46v9l48 20 48-20v-9 M60 66v9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><g fill="currentColor"><circle cx="60" cy="46" r="2"/><circle cx="44" cy="39.5" r="2"/><circle cx="76" cy="52.5" r="2"/><circle cx="76" cy="39.5" r="2"/><circle cx="44" cy="52.5" r="2"/></g></symbol>
+    <symbol id="s-cyl" viewBox="0 0 120 90"><path d="M30 26a30 12 0 1 0 60 0a30 12 0 1 0-60 0Z M30 26v38a30 12 0 0 0 60 0V26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="s-ring" viewBox="0 0 120 90"><path d="M20 42a40 16 0 1 0 80 0a40 16 0 1 0-80 0Z M44 42a16 6 0 1 0 32 0a16 6 0 1 0-32 0Z M20 42v12a40 16 0 0 0 80 0V42" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="s-hull" viewBox="0 0 120 90"><path d="M10 40H110L96 66Q60 82 24 66Z M10 40Q60 54 110 40 M44 40l6-14h20l6 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main">דילוג לתוכן הראשי</a>
+
+<!-- 1. HEADER -->
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="#top" aria-label="Papaya Prints, לראש העמוד">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#FF8000"/><rect x="7" y="8" width="18" height="3.6" rx="1.8" fill="#16201C"/><rect x="7" y="14.2" width="14" height="3.6" rx="1.8" fill="#16201C"/><rect x="7" y="20.4" width="9" height="3.6" rx="1.8" fill="#16201C"/></svg>
+      <span class="brand-word" dir="ltr">Papaya<span>Prints</span></span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bars" aria-hidden="true"></span>
+      <span class="visually-hidden">תפריט</span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="ניווט ראשי">
+      <ul>
+        <li><a href="#products">מוצרים</a></li>
+        <li><a href="#custom">הזמנה אישית</a></li>
+        <li><a href="#how">איך זה עובד</a></li>
+        <li><a href="#materials">חומרים וצבעים</a></li>
+        <li><a href="#faq">שאלות נפוצות</a></li>
+      </ul>
+      <a class="btn btn-primary btn-sm nav-cta" href="#contact" data-wa="general">
+        <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+        וואטסאפ
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 2. HERO -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 id="hero-title">החלק שחסר לכם, <br>מתוכנן ומודפס ברעננה</h1>
+        <p class="lead">תיקונים פונקציונליים, מתקנים ומתנות בהתאמה אישית. שולחים תמונה ומידות, מקבלים תכנון לאישור, ורק אז מדפיסים.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary btn-lg" href="#contact" data-wa="general">
+            <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+            שלחו תמונה ומידות בוואטסאפ
+          </a>
+          <a class="btn btn-ghost btn-lg" href="#products">
+            לגלריה
+            <svg class="ico arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+        <ul class="chips" aria-label="במה אנחנו עוזרים">
+          <li class="chip"><span dir="ltr">PLA · PETG</span></li>
+          <li class="chip">עד 4 צבעים בהדפסה אחת</li>
+          <li class="chip">תכנון בהתאמה אישית</li>
+          <li class="chip">איסוף ברעננה</li>
+        </ul>
+      </div>
+
+      <figure class="hero-media bp-frame">
+        <img src="assets/img/solder-feeder-closeup.webp" width="1200" height="750"
+             alt="הדמיית תלת-ממד של מזין בדיל כתום על האצבע: כפתור קטן על הטבעת, ומתחתיה צינורית פליז שהבדיל יוצא ממנה"
+             fetchpriority="high">
+        <figcaption class="bp-caption">
+          <span class="mono">PETG</span>
+          <span>מזין בדיל לפרק כף היד, מתוכנן אצלנו</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 3. PRODUCTS -->
+  <section class="section" id="products" aria-labelledby="products-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="products-title">מה כבר יצא מהמדפסת</h2>
+        <p>חלק מהמוצרים מוכנים להזמנה, וחלק עוד בדרך. מה שלא מופיע כאן? כנראה שאפשר לתכנן.</p>
+      </div>
+
+      <div class="grid products">
+
+        <article class="card card-wide" data-product="מזין בדיל לפרק כף היד">
+          <div class="card-media media-duo">
+            <img src="assets/img/solder-feeder-closeup.webp" width="1200" height="750" loading="lazy"
+                 alt="תקריב של טבעת כתומה מודפסת עם כפתור, על אצבע, וצינורית פליז שדרכה יוצא בדיל">
+            <img class="media-second" src="assets/img/solder-feeder-hand.webp" width="1200" height="750" loading="lazy"
+                 alt="הדמיית יד עם מזין הבדיל: כפתור בקצה האצבע ויחידה על פרק כף היד שדוחפת את הבדיל">
+          </div>
+          <div class="card-body">
+            <div class="tags"><span class="tag tag-mat">PETG</span><span class="tag">אלקטרוניקה</span></div>
+            <h3>מזין בדיל לפרק כף היד</h3>
+            <p>לוחצים על כפתור בקצה האצבע, והיחידה שעל פרק היד דוחפת בדיל קדימה. יד אחת על הלוח, יד אחת על המלחם.</p>
+            <div class="card-foot">
+              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <a class="btn btn-wa" href="#contact" data-wa-product="מזין בדיל לפרק כף היד">להזמנה בוואטסאפ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-product="מאריך ידית בלם לאופני ילדים">
+          <div class="card-media bp-frame bp-light">
+            <img class="contain" src="assets/img/brake-lever-extender-drawing.webp" width="450" height="675" loading="lazy"
+                 alt="שרטוט תכנון כחול, מבט מלמעלה, של מאריך ידית בלם בגודל 70 על 40 מילימטר">
+            <span class="bp-caption bp-caption-float">שרטוט תכנון · מבט מלמעלה</span>
+          </div>
+          <div class="card-body">
+            <div class="tags"><span class="tag tag-mat">PETG</span><span class="tag mono"><bdi>70×40×14</bdi> מ״מ</span><span class="tag mono"><bdi>~17</bdi> גר׳</span></div>
+            <h3>מאריך ידית בלם לאופני ילדים</h3>
+            <p>חלק אחד שמתחבר בקשיות כבלים, כך שילד בן 6 מגיע לבלם באופניים של 20 אינץ׳ בלי להתאמץ.</p>
+            <div class="card-foot">
+              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <a class="btn btn-wa" href="#contact" data-wa-product="מאריך ידית בלם לאופני ילדים">להזמנה בוואטסאפ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-product="מתקן סקאדיס (IKEA SKÅDIS) למברגה + מעמד ביטים">
+          <div class="card-media">
+            <!-- PLACEHOLDER: replace with real photo -->
+            <div class="ph" data-placeholder="replace-with-photo" role="img" aria-label="מקום שמור לתמונה: מתקן סקאדיס למברגה">
+              <svg class="ph-shape" aria-hidden="true"><use href="#s-slab"/></svg>
+              <span class="ph-label">תמונה תתווסף בקרוב</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="tags"><span class="tag tag-mat">PLA</span><span class="tag">סדר בסדנה</span></div>
+            <h3>מתקן סקאדיס (<bdi>IKEA SKÅDIS</bdi>) למברגה + מעמד ביטים</h3>
+            <p>המברגה והביטים במקום קבוע על הלוח, ביד כשצריך אותם.</p>
+            <div class="card-foot">
+              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <a class="btn btn-wa" href="#contact" data-wa-product="מתקן סקאדיס (IKEA SKÅDIS) למברגה + מעמד ביטים">להזמנה בוואטסאפ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-product="מעמד לסניץ' הזהב">
+          <div class="card-media">
+            <!-- PLACEHOLDER: replace with real photo -->
+            <div class="ph" data-placeholder="replace-with-photo" role="img" aria-label="מקום שמור לתמונה: מעמד לסניץ' הזהב">
+              <svg class="ph-shape" aria-hidden="true"><use href="#s-cyl"/></svg>
+              <span class="ph-label">תמונה תתווסף בקרוב</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="tags"><span class="tag tag-mat">PLA</span><span class="tag">רב-צבעוני</span></div>
+            <h3>מעמד לסניץ' הזהב</h3>
+            <p>מעמד תצוגה לסניץ' על המדף, בצבעי זהב ושחור.</p>
+            <div class="card-foot">
+              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <a class="btn btn-wa" href="#contact" data-wa-product="מעמד לסניץ' הזהב">להזמנה בוואטסאפ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-product="סירת בנצ'י בצבעי פפאיה ושחור">
+          <div class="card-media">
+            <!-- PLACEHOLDER: replace with real photo -->
+            <div class="ph" data-placeholder="replace-with-photo" role="img" aria-label="מקום שמור לתמונה: סירת בנצ'י בצבעי פפאיה ושחור">
+              <svg class="ph-shape" aria-hidden="true"><use href="#s-hull"/></svg>
+              <span class="ph-label">תמונה תתווסף בקרוב</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="tags"><span class="tag tag-mat">PLA</span><span class="tag">רב-צבעוני</span></div>
+            <h3>סירת בנצ'י בצבעי פפאיה ושחור</h3>
+            <p>סירה קטנה בהשראת עולם הפורמולה 1, בכתום ובשחור.</p>
+            <div class="card-foot">
+              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <a class="btn btn-wa" href="#contact" data-wa-product="סירת בנצ'י בצבעי פפאיה ושחור">להזמנה בוואטסאפ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-product="תיקונים לבית ולמכשירי חשמל">
+          <div class="card-media">
+            <!-- PLACEHOLDER: replace with real photo -->
+            <div class="ph" data-placeholder="replace-with-photo" role="img" aria-label="מקום שמור לתמונה: חלקי תיקון לבית ולמכשירי חשמל">
+              <svg class="ph-shape" aria-hidden="true"><use href="#s-cube"/></svg>
+              <span class="ph-label">תמונה תתווסף בקרוב</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="tags"><span class="tag tag-mat">PETG</span><span class="tag">תיקונים</span></div>
+            <h3>תיקונים לבית ולמכשירי חשמל</h3>
+            <p>בסיס רחב לידית מפסק, קליפסים חלופיים וחלקים קטנים שהיצרן הפסיק למכור.</p>
+            <div class="card-foot">
+              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <a class="btn btn-wa" href="#contact" data-wa-product="תיקונים לבית ולמכשירי חשמל">להזמנה בוואטסאפ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-product="מתאם לזרוע עוזרת + זכוכית מגדלת">
+          <div class="card-media">
+            <!-- PLACEHOLDER: replace with real photo -->
+            <div class="ph" data-placeholder="replace-with-photo" role="img" aria-label="מקום שמור לתמונה: מתאם לזרוע עוזרת וזכוכית מגדלת">
+              <svg class="ph-shape" aria-hidden="true"><use href="#s-ring"/></svg>
+              <span class="ph-label">תמונה תתווסף בקרוב</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="tags"><span class="tag tag-mat">PETG</span><span class="tag">אלקטרוניקה</span></div>
+            <h3>מתאם לזרוע עוזרת + זכוכית מגדלת</h3>
+            <p>מחבר את הזכוכית המגדלת לזרוע העוזרת, ומשאיר לכם שתי ידיים פנויות ללחמה.</p>
+            <div class="card-foot">
+              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <a class="btn btn-wa" href="#contact" data-wa-product="מתאם לזרוע עוזרת + זכוכית מגדלת">להזמנה בוואטסאפ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-product="פריטים לילדים">
+          <div class="card-media">
+            <!-- PLACEHOLDER: replace with real photo -->
+            <div class="ph" data-placeholder="replace-with-photo" role="img" aria-label="מקום שמור לתמונה: שמות, וו תליה וצעצועים לילדים">
+              <svg class="ph-shape" aria-hidden="true"><use href="#s-cube"/></svg>
+              <span class="ph-label">תמונה תתווסף בקרוב</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="tags"><span class="tag tag-mat">PLA</span><span class="tag">רב-צבעוני</span></div>
+            <h3>פריטים לילדים</h3>
+            <p>שמות לדלת החדר, וו תליה וצעצועים קטנים, בצבעים שהם בוחרים.</p>
+            <div class="card-foot">
+              <span class="price" data-placeholder="price">החל מ-<bdi>₪__</bdi></span>
+              <a class="btn btn-wa" href="#contact" data-wa-product="פריטים לילדים">להזמנה בוואטסאפ</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. CUSTOM ORDER -->
+  <section class="section section-tint" id="custom" aria-labelledby="custom-title">
+    <div class="wrap custom-grid">
+      <div>
+        <h2 id="custom-title">שולחים תמונה ומידות, מקבלים תכנון</h2>
+        <p class="section-lead">יש לכם משהו שנשבר, חסר או לא מתאים? אין צורך בקובץ תלת-ממדי. מספיק לצלם ולמדוד.</p>
+
+        <h3 class="sub">מה כדאי לשלוח</h3>
+        <ul class="checklist">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span><strong>תמונה עם סרגל או קליפר</strong> ליד החלק, כדי שנדע את הקנה מידה.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span><strong>מידות</strong> עיקריות: אורך, רוחב, עובי וקוטר של חורים.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span><strong>חומר וצבע</strong> מועדפים, ואיפה החלק ישמש (בפנים, בחוץ, בחום).</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span><strong>כמות</strong>, גם אם זה חלק אחד בלבד.</span></li>
+        </ul>
+
+        <div class="cta-row">
+          <a class="btn btn-primary btn-lg" href="#contact" data-wa="custom">
+            <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+            שלחו תמונה ומידות בוואטסאפ
+          </a>
+        </div>
+      </div>
+
+      <aside class="receive" aria-labelledby="receive-title">
+        <h3 id="receive-title" class="sub">מה מקבלים בחזרה</h3>
+        <p>הדמיה או שרטוט של החלק לפני שמדפיסים. מאשרים, מבקשים שינוי אם צריך, ורק אז יוצאים להדפסה.</p>
+        <figure class="bp-frame bp-light receive-fig">
+          <img class="contain" src="assets/img/brake-lever-extender-drawing.webp" width="450" height="675" loading="lazy"
+               alt="דוגמה לשרטוט תכנון: מבט מלמעלה של מאריך ידית בלם, עם סרגל מידות במילימטרים">
+          <figcaption class="bp-caption bp-caption-float">דוגמה: שרטוט תכנון</figcaption>
+        </figure>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 5. HOW IT WORKS -->
+  <section class="section" id="how" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="how-title">איך זה עובד</h2>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <span class="step-n mono" aria-hidden="true">1</span>
+          <h3>שולחים</h3>
+          <p>תמונה ומידות בוואטסאפ. אפשר גם סתם לשאול אם זה אפשרי.</p>
+        </li>
+        <li class="step">
+          <span class="step-n mono" aria-hidden="true">2</span>
+          <h3>מתכננים ומאשרים</h3>
+          <p>מחזירים לכם הדמיה והצעת מחיר. משנים עד שזה בדיוק מה שצריך.</p>
+        </li>
+        <li class="step">
+          <span class="step-n mono" aria-hidden="true">3</span>
+          <h3>מדפיסים ואוספים</h3>
+          <p>מדפיסים ברעננה, ואתם אוספים או מקבלים במשלוח.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 6. MATERIALS -->
+  <section class="section section-tint" id="materials" aria-labelledby="materials-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="materials-title">חומרים וצבעים</h2>
+        <p>שני חומרים, ובחירה אחת פשוטה: PLA לדברים יפים בפנים, PETG לדברים שצריכים להחזיק מעמד.</p>
+      </div>
+
+      <div class="compare">
+        <article class="mat">
+          <h3><span dir="ltr">PLA</span></h3>
+          <p class="mat-for">מתאים לפנים הבית ולמתנות</p>
+          <ul>
+            <li>מגוון צבעים רחב מאוד</li>
+            <li>פרטים חדים ומשטח נקי</li>
+            <li>לא מיועד לחום גבוה או לשמש ישירה</li>
+          </ul>
+        </article>
+        <article class="mat mat-petg">
+          <h3><span dir="ltr">PETG</span></h3>
+          <p class="mat-for">מתאים לחוץ, לאופניים ולמכשירי חשמל</p>
+          <ul>
+            <li>חזק וקשוח יותר</li>
+            <li>עמיד יותר לחום, לשמש ולרטיבות</li>
+            <li>בחירה טובה לחלקים שנדרשים לעבוד קשה</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="ams">
+        <div class="ams-text">
+          <h3>רב-צבעוני בהדפסה אחת</h3>
+          <p>עם מערכת <span dir="ltr">AMS</span> אפשר לשלב עד 4 צבעים בחלק אחד, בלי לצבוע ובלי להדביק. מתאים לשמות, לוגואים ולמתנות.</p>
+        </div>
+        <div class="layers" aria-hidden="true"></div>
+      </div>
+
+      <h3 class="sub swatch-title">צבעים לדוגמה – המלאי משתנה</h3>
+      <ul class="swatches">
+        <li><span class="sw" style="--c:#F4F4F0"></span>לבן</li>
+        <li><span class="sw" style="--c:#1C1F1E"></span>שחור</li>
+        <li><span class="sw" style="--c:#8A9390"></span>אפור</li>
+        <li><span class="sw" style="--c:#FF8000"></span>כתום פפאיה</li>
+        <li><span class="sw" style="--c:#E7B93E"></span>צהוב</li>
+        <li><span class="sw" style="--c:#C7372F"></span>אדום</li>
+        <li><span class="sw" style="--c:#2C7656"></span>ירוק</li>
+        <li><span class="sw" style="--c:#2F6FB5"></span>כחול</li>
+        <li><span class="sw" style="--c:#8E5BB5"></span>סגול</li>
+        <li><span class="sw" style="--c:#E58FAE"></span>ורוד</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 7. FAQ -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="wrap faq-wrap">
+      <div class="section-head">
+        <h2 id="faq-title">שאלות נפוצות</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>כמה זמן לוקח לקבל את החלק?</summary>
+          <p>תלוי בגודל, בחומר ובזמן ההדפסה. אחרי שתשלחו פרטים נחזיר הערכת זמן לפני שמתחילים.</p>
+        </details>
+        <details>
+          <summary>כמה זה עולה?</summary>
+          <p>המחיר תלוי בגודל החלק, בזמן ההדפסה ובחומר. שולחים תמונה ומידות בוואטסאפ ומקבלים הצעת מחיר לפני כל התחייבות.</p>
+        </details>
+        <details>
+          <summary>משלוח או איסוף?</summary>
+          <p>איסוף עצמי ברעננה. <span class="tbd" data-placeholder="shipping">אפשרויות משלוח: יעודכן.</span></p>
+        </details>
+        <details>
+          <summary>אפשר לשחזר חלק שנשבר?</summary>
+          <p>בדרך כלל כן. אם יש לכם את החלק השבור, צלמו אותו עם סרגל ושלחו. אם אין, מספיק תיאור ומידות ואנחנו נתכנן אותו מחדש.</p>
+        </details>
+        <details>
+          <summary>כמה החלקים חזקים, והאם הם עומדים בחום?</summary>
+          <p><span dir="ltr">PETG</span> חזק וקשוח יותר ועמיד יותר לחום, לשמש ולרטיבות, ולכן הוא הבחירה לחלקים שנדרשים לעבוד קשה. <span dir="ltr">PLA</span> מתאים לשימוש בפנים הבית. נמליץ על החומר המתאים לפי השימוש.</p>
+        </details>
+        <details>
+          <summary>יש לי כבר קובץ STL. אפשר להדפיס אותו?</summary>
+          <p>כן. שולחים את הקובץ בוואטסאפ ונבדוק אם הוא מוכן להדפסה ובאיזה חומר כדאי להדפיס אותו.</p>
+        </details>
+        <details>
+          <summary>איך משלמים?</summary>
+          <p><span class="tbd" data-placeholder="payment">אפשרויות התשלום (ביט, פייבוקס ועוד): יעודכן.</span></p>
+        </details>
+        <details>
+          <summary>אפשר להזמין כמות לעסק או לאירוע?</summary>
+          <p>בהחלט. כתבו לנו מה הכמות ומה השימוש, ונחזור עם הצעה וזמני הדפסה.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CONTACT -->
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-inner">
+      <h2 id="contact-title">יש לכם רעיון או חלק שחסר?</h2>
+      <p>הדרך המהירה ביותר היא וואטסאפ. תמונה ומידות, ואנחנו חוזרים אליכם.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary btn-xl" href="https://wa.me/" data-wa="general" target="_blank" rel="noopener">
+          <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+          שלחו תמונה ומידות בוואטסאפ
+        </a>
+        <a class="btn btn-ghost-dark btn-xl" href="https://instagram.com/PLACEHOLDER" data-instagram target="_blank" rel="noopener" data-placeholder="instagram">
+          <svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg>
+          <span dir="ltr">Instagram</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 9. FOOTER -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="brand-word footer-brand" dir="ltr">Papaya<span>Prints</span></p>
+      <p>הדפסות תלת-ממד בהתאמה אישית · רעננה</p>
+    </div>
+    <nav aria-label="קישורים בתחתית העמוד">
+      <ul class="footer-links">
+        <li><a href="#products">מוצרים</a></li>
+        <li><a href="#custom">הזמנה אישית</a></li>
+        <li><a href="#faq">שאלות נפוצות</a></li>
+        <li><a href="#contact" data-wa="general" target="_blank" rel="noopener">וואטסאפ</a></li>
+        <li><a href="https://instagram.com/PLACEHOLDER" data-instagram target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </nav>
+    <p class="footer-note">© <span id="year">2026</span> <span dir="ltr">Papaya Prints</span>, רעננה<br>
+      <span class="mono">מודפס על <bdi dir="ltr">Bambu Lab P2S</bdi></span></p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
