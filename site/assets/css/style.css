@@ -436,9 +436,6 @@ h1 {
 .card-media.bp-frame { aspect-ratio: 1 / 1; }
 .card-media.bp-frame > img.contain { object-fit: contain; padding: 10px 10px 44px; }
 
-.media-duo { display: grid; grid-template-columns: 1fr; }
-.media-second { display: none; }
-
 .card-body { display: flex; flex-direction: column; flex: 1; gap: 10px; padding: 18px 18px 20px; }
 .card-body p { color: var(--muted); font-size: 1rem; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -469,16 +466,12 @@ h1 {
   .grid.products { grid-template-columns: repeat(2, 1fr); }
   .card-wide { grid-column: 1 / -1; }
   .card-wide .card-media { aspect-ratio: auto; }
-  .media-duo { grid-template-columns: 1fr 1fr; }
-  .media-second { display: block; border-inline-start: 1px solid var(--line); }
   .card-wide .card-media > img { aspect-ratio: 8 / 5; block-size: auto; }
 }
 @media (min-width: 1000px) {
   .grid.products { grid-template-columns: repeat(6, 1fr); }
   .card-wide { grid-column: span 4; }
   .card:not(.card-wide) { grid-column: span 2; }
-  .card-wide .media-duo { grid-template-columns: 1fr; }
-  .card-wide .media-second { display: none; }
 }
 /* On wide screens the large card gets the media beside the text */
 @media (min-width: 1000px) {
@@ -525,8 +518,8 @@ h1 {
 .receive { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 22px; box-shadow: var(--shadow); }
 .receive .sub { margin-block-start: 0; }
 .receive p { color: var(--muted); }
-.receive-fig { margin-block-start: 18px; aspect-ratio: 1 / 1; }
-.receive-fig img { block-size: 100%; padding: 10px 10px 44px; object-fit: contain; }
+.receive-fig { margin-block-start: 18px; aspect-ratio: 3 / 2; }
+.receive-fig img { block-size: 100%; object-fit: cover; }
 @media (min-width: 900px) {
   .custom-grid { grid-template-columns: 1.15fr 1fr; }
 }
@@ -674,6 +667,9 @@ h1 {
 .footer-links a { display: inline-flex; align-items: center; min-block-size: 44px; text-decoration: none; color: var(--ink); }
 @media (hover: hover) { .footer-links a:hover { color: var(--orange-ink); text-decoration: underline; text-underline-offset: 4px; } }
 .footer-note { line-height: 1.8; }
+.credits { margin-block-start: 28px; padding-block-start: 18px; border-block-start: 1px solid var(--line); font-size: .8125rem; line-height: 1.9; }
+.credits a { color: inherit; text-underline-offset: 3px; }
+@media (hover: hover) { .credits a:hover { color: var(--orange-ink); } }
 @media (min-width: 800px) {
   .footer-grid { grid-template-columns: 1.3fr 1.5fr 1fr; align-items: start; }
 }
