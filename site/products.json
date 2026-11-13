@@ -53,24 +53,74 @@
       }
     ],
     "freeShippingThreshold": 200,
-    "freeShippingThresholdPlaceholder": true
+    "freeShippingThresholdPlaceholder": true,
+    "featured": [
+      "gyroscope",
+      "cute-snakey",
+      "cube-guy",
+      "fidget-star"
+    ]
   },
   "categories": [
     {
-      "id": "gadgets",
+      "id": "fidget-toys",
       "name": {
-        "he": "גאדג'טים",
-        "en": "Gadgets"
+        "he": "צעצועי פידג'ט",
+        "en": "Fidget toys"
       },
-      "image": "assets/img/products/gyroscope-1.webp"
+      "tagline": {
+        "he": "מפרקים, מתפתלים, מסתובבים. מודפס בחתיכה אחת.",
+        "en": "Articulated, twisty, spinning. Printed in one piece."
+      },
+      "image": "assets/img/products/cute-snakey-1.webp"
     },
     {
-      "id": "fridge-toys",
+      "id": "keychains",
       "name": {
-        "he": "צעצועי מקרר",
-        "en": "Fridge toys"
+        "he": "מחזיקי מפתחות",
+        "en": "Keychains"
       },
-      "image": "assets/img/products/kid-monster-1.webp"
+      "tagline": {
+        "he": "קטנים, קלים, ותמיד איתך.",
+        "en": "Small, light, always with you."
+      },
+      "image": "assets/img/products/flexi-rex-1.webp"
+    },
+    {
+      "id": "functional",
+      "name": {
+        "he": "פונקציונלי",
+        "en": "Functional"
+      },
+      "tagline": {
+        "he": "חלקים שעושים עבודה.",
+        "en": "Parts that do a job."
+      },
+      "image": "assets/img/products/wall-pen-holder-1.webp"
+    },
+    {
+      "id": "home",
+      "name": {
+        "he": "בית וארגון",
+        "en": "Home & organization"
+      },
+      "tagline": {
+        "he": "סדר שנראה טוב.",
+        "en": "Order that looks good."
+      },
+      "image": "assets/img/products/folding-box-1.webp"
+    },
+    {
+      "id": "decoration",
+      "name": {
+        "he": "עיצוב ונוי",
+        "en": "Decoration"
+      },
+      "tagline": {
+        "he": "פריטים לשולחן ולמדף.",
+        "en": "Pieces for the desk and shelf."
+      },
+      "image": "assets/img/products/gyroscope-1.webp"
     }
   ],
   "products": [
@@ -81,7 +131,7 @@
       "stripeLink": "",
       "disclaimer": null,
       "id": "gyroscope",
-      "category": "gadgets",
+      "category": "decoration",
       "name": {
         "he": "ג'ירוסקופ שולחני",
         "en": "Desk gyroscope"
@@ -106,213 +156,10 @@
         "assets/img/products/gyroscope-2.webp",
         "assets/img/products/gyroscope-plate-1.webp",
         "assets/img/products/gyroscope-plate-2.webp"
-      ]
-    },
-    {
-      "placeholder": false,
-      "active": true,
-      "pricePlaceholder": true,
-      "stripeLink": "",
-      "disclaimer": null,
-      "id": "cat-hideout",
-      "category": "gadgets",
-      "name": {
-        "he": "מחבוא חתולים",
-        "en": "Cat hideout"
-      },
-      "price": 349,
-      "material": {
-        "he": "PLA עץ",
-        "en": "Wood-fill PLA"
-      },
-      "specs": [
-        {
-          "he": "400×440×250 מ״מ",
-          "en": "400×440×250 mm"
-        },
-        {
-          "he": "כ־700 ג׳",
-          "en": "About 700 g"
-        }
       ],
-      "images": [
-        "assets/img/products/cat-hideout-1.webp",
-        "assets/img/products/cat-hideout-2.webp",
-        "assets/img/products/cat-hideout-plate-1.webp",
-        "assets/img/products/cat-hideout-plate-4.webp"
-      ]
-    },
-    {
-      "placeholder": false,
-      "active": true,
-      "pricePlaceholder": true,
-      "stripeLink": "",
-      "disclaimer": null,
-      "id": "brake-extender",
-      "category": "gadgets",
-      "name": {
-        "he": "מאריך ידית בלם לאופני ילדים",
-        "en": "Kids' brake lever extender"
-      },
-      "price": 49,
-      "material": {
-        "he": "PLA",
-        "en": "PLA"
-      },
-      "specs": [
-        {
-          "he": "70×40×14 מ״מ",
-          "en": "70×40×14 mm"
-        },
-        {
-          "he": "כ־17 ג׳",
-          "en": "About 17 g"
-        },
-        {
-          "he": "חיבור באזיקונים",
-          "en": "Zip-tie mount"
-        }
-      ],
-      "images": [
-        "assets/img/products/brake-extender-1.webp",
-        "assets/img/products/brake-extender-2.webp"
-      ]
-    },
-    {
-      "placeholder": false,
-      "active": true,
-      "pricePlaceholder": true,
-      "stripeLink": "",
-      "disclaimer": null,
-      "id": "solder-feeder",
-      "category": "gadgets",
-      "name": {
-        "he": "מזין בדיל לפרק כף היד",
-        "en": "Wrist solder feeder"
-      },
-      "price": 189,
-      "material": {
-        "he": "PETG",
-        "en": "PETG"
-      },
-      "specs": [
-        {
-          "he": "יחידת פרק כף היד + טבעת",
-          "en": "Wrist unit + finger ring"
-        },
-        {
-          "he": "מנוע N20, 3×AAA",
-          "en": "N20 motor, 3×AAA"
-        }
-      ],
-      "images": [
-        "assets/img/products/solder-feeder-1.webp",
-        "assets/img/products/solder-feeder-2.webp",
-        "assets/img/products/solder-feeder-3.webp",
-        "assets/img/products/solder-feeder-plate.webp"
-      ]
-    },
-    {
-      "placeholder": false,
-      "active": true,
-      "pricePlaceholder": true,
-      "stripeLink": "",
-      "disclaimer": {
-        "he": "לא מיוצר, משווק או מאושר על ידי Apple.",
-        "en": "Not made, sold, or endorsed by Apple."
-      },
-      "id": "dock-hooks",
-      "category": "gadgets",
-      "name": {
-        "he": "ווים למעמד מחשב נייד אנכי 14״",
-        "en": "Hooks for a 14-inch vertical laptop dock"
-      },
-      "price": 69,
-      "material": {
-        "he": "PETG",
-        "en": "PETG"
-      },
-      "specs": [
-        {
-          "he": "זוג",
-          "en": "Pair"
-        },
-        {
-          "he": "כ־48 ג׳",
-          "en": "About 48 g"
-        }
-      ],
-      "images": [
-        "assets/img/products/dock-hooks-1.webp",
-        "assets/img/products/dock-hooks-2.webp",
-        "assets/img/products/dock-hooks-plate.webp"
-      ]
-    },
-    {
-      "placeholder": false,
-      "active": true,
-      "pricePlaceholder": true,
-      "stripeLink": "",
-      "disclaimer": null,
-      "id": "spoiler-shelf-set",
-      "category": "gadgets",
-      "name": {
-        "he": "קופסת C6 ומקלדת 9 מקשים למדף ספוילר",
-        "en": "C6 case and 9-key deck for a spoiler shelf"
-      },
-      "price": 129,
-      "material": {
-        "he": "PLA",
-        "en": "PLA"
-      },
-      "specs": [
-        {
-          "he": "קופסת C6 + מכסה",
-          "en": "C6 case + lid"
-        },
-        {
-          "he": "מקלדת 9 מקשים + כיסויים",
-          "en": "9-key deck + keycaps"
-        }
-      ],
-      "images": [
-        "assets/img/products/spoiler-shelf-3.webp",
-        "assets/img/products/spoiler-shelf-5.webp",
-        "assets/img/products/spoiler-shelf-1.webp",
-        "assets/img/products/spoiler-shelf-2.webp"
-      ]
-    },
-    {
-      "placeholder": false,
-      "active": true,
-      "pricePlaceholder": true,
-      "stripeLink": "",
-      "disclaimer": null,
-      "id": "wall-pen-holder",
-      "category": "gadgets",
-      "name": {
-        "he": "מחזיק עטים לקיר",
-        "en": "Wall pen holder"
-      },
-      "price": 39,
-      "material": {
-        "he": "PLA",
-        "en": "PLA"
-      },
-      "specs": [
-        {
-          "he": "עיצוב: Hexavalent · CC BY 4.0",
-          "en": "Design: Hexavalent · CC BY 4.0"
-        }
-      ],
-      "images": [
-        "assets/img/products/wall-pen-holder-1.webp",
-        "assets/img/products/wall-pen-holder-2.webp"
-      ],
-      "source": {
-        "makerworld": "https://makerworld.com/en/models/810665",
-        "license": "CC BY 4.0",
-        "designer": "Hexavalent"
+      "description": {
+        "he": "ג'ירוסקופ טבעות שמסתובב בחופשיות על בסיס יציב. עיצוב מקורי של Papaya Prints, פריט שולחני שאי אפשר להפסיק לגעת בו.",
+        "en": "A ring gimbal gyroscope that spins freely on a steady base. An original Papaya Prints design and a desk piece you keep touching."
       }
     },
     {
@@ -321,11 +168,11 @@
       "pricePlaceholder": true,
       "stripeLink": "",
       "disclaimer": null,
-      "id": "folding-box",
-      "category": "gadgets",
+      "id": "cute-snakey",
+      "category": "fidget-toys",
       "name": {
-        "he": "קופסה מתקפלת",
-        "en": "Folding box"
+        "he": "נחש מפרקי חמוד",
+        "en": "Cute flexi snake"
       },
       "price": 25,
       "material": {
@@ -334,19 +181,27 @@
       },
       "specs": [
         {
-          "he": "עיצוב: danny.prchal · CC BY-SA 4.0",
-          "en": "Design: danny.prchal · CC BY-SA 4.0"
+          "he": "3 גדלים: מיני, רגיל, ארוך במיוחד",
+          "en": "3 sizes: mini, normal, extra long"
+        },
+        {
+          "he": "עיצוב: Amanda Roos · CC0",
+          "en": "Design: Amanda Roos · CC0"
         }
       ],
+      "description": {
+        "he": "נחש מפרקי שמתפתל בכל כיוון. מודפס בחתיכה אחת ונעים למשחק ביד.",
+        "en": "An articulated snake that wiggles every way. Printed in one piece and great to fidget with."
+      },
       "images": [
-        "assets/img/products/folding-box-1.webp",
-        "assets/img/products/folding-box-2.webp",
-        "assets/img/products/folding-box-plate.webp"
+        "assets/img/products/cute-snakey-1.webp",
+        "assets/img/products/cute-snakey-2.webp",
+        "assets/img/products/cute-snakey-3.webp"
       ],
       "source": {
-        "makerworld": "https://makerworld.com/en/models/3376079",
-        "license": "CC BY-SA 4.0",
-        "designer": "danny.prchal"
+        "makerworld": "https://makerworld.com/en/models/1925739",
+        "license": "CC0",
+        "designer": "Amanda Roos"
       }
     },
     {
@@ -355,42 +210,8 @@
       "pricePlaceholder": true,
       "stripeLink": "",
       "disclaimer": null,
-      "id": "kid-monster",
-      "category": "fridge-toys",
-      "name": {
-        "he": "מפלצת מהציור",
-        "en": "Drawn monster"
-      },
-      "price": 99,
-      "material": {
-        "he": "PLA",
-        "en": "PLA"
-      },
-      "specs": [
-        {
-          "he": "גובה כ־10 ס״מ",
-          "en": "About 10 cm tall"
-        },
-        {
-          "he": "עד 4 צבעים",
-          "en": "Up to 4 colours"
-        }
-      ],
-      "images": [
-        "assets/img/products/kid-monster-1.webp",
-        "assets/img/products/kid-monster-2.webp",
-        "assets/img/products/kid-monster-3.webp",
-        "assets/img/products/kid-monster-plate-1.webp"
-      ]
-    },
-    {
-      "placeholder": false,
-      "active": true,
-      "pricePlaceholder": true,
-      "stripeLink": "",
-      "disclaimer": null,
       "id": "fidget-star",
-      "category": "fridge-toys",
+      "category": "fidget-toys",
       "name": {
         "he": "כוכב פידג'ט",
         "en": "Fidget star"
@@ -415,6 +236,10 @@
         "makerworld": "https://makerworld.com/en/models/372777",
         "license": "CC0",
         "designer": "Silverromaldo"
+      },
+      "description": {
+        "he": "כוכב פידג'ט שמתכווץ ומתרחב ביד. מודפס בחתיכה אחת, בלי הרכבה.",
+        "en": "A star fidget that folds and expands in your hand. Printed in one piece, no assembly."
       }
     },
     {
@@ -423,32 +248,40 @@
       "pricePlaceholder": true,
       "stripeLink": "",
       "disclaimer": null,
-      "id": "flexi-rex",
-      "category": "fridge-toys",
+      "id": "cube-guy",
+      "category": "fidget-toys",
       "name": {
-        "he": "מחזיק מפתחות טי־רקס גמיש",
-        "en": "Flexi T-rex keychain"
+        "he": "קוביה שהופכת לרובוט",
+        "en": "Little cube guy"
       },
-      "price": 25,
+      "price": 29,
       "material": {
         "he": "PLA",
         "en": "PLA"
       },
       "specs": [
         {
-          "he": "עיצוב: LukesWorkshopBuilds · CC BY-SA 4.0",
-          "en": "Design: LukesWorkshopBuilds · CC BY-SA 4.0"
+          "he": "קוביה של כ־2.5 ס״מ",
+          "en": "About a 1-inch cube"
+        },
+        {
+          "he": "עיצוב: Lucky 13 Toys · CC BY 4.0",
+          "en": "Design: Lucky 13 Toys · CC BY 4.0"
         }
       ],
+      "description": {
+        "he": "קוביה קטנה שנפתחת החוצה והופכת לרובוט עם רגליים. הרכבה בקליק.",
+        "en": "A small cube that flips inside out into a leggy little robot. Snap-fit assembly."
+      },
       "images": [
-        "assets/img/products/flexi-rex-1.webp",
-        "assets/img/products/flexi-rex-2.webp",
-        "assets/img/products/flexi-rex-plate.webp"
+        "assets/img/products/cube-guy-1.webp",
+        "assets/img/products/cube-guy-2.webp",
+        "assets/img/products/cube-guy-3.webp"
       ],
       "source": {
-        "makerworld": "https://makerworld.com/en/models/2326479",
-        "license": "CC BY-SA 4.0",
-        "designer": "LukesWorkshopBuilds"
+        "makerworld": "https://makerworld.com/en/models/183662",
+        "license": "CC BY 4.0",
+        "designer": "Lucky 13 Toys (soozafone)"
       }
     },
     {
@@ -458,7 +291,7 @@
       "stripeLink": "",
       "disclaimer": null,
       "id": "dragonfly-propeller",
-      "category": "fridge-toys",
+      "category": "fidget-toys",
       "name": {
         "he": "פרופלור מעופף",
         "en": "Hand-spin flying propeller"
@@ -483,6 +316,161 @@
         "makerworld": "https://makerworld.com/en/models/63106",
         "license": "CC BY-SA 4.0",
         "designer": "uhltimate"
+      },
+      "description": {
+        "he": "פרופלור שמסובבים בין כפות הידיים והוא ממריא. צעצוע קלאסי בלי סוללות.",
+        "en": "Spin it between your palms and it takes off. A classic toy with no batteries."
+      }
+    },
+    {
+      "placeholder": false,
+      "active": true,
+      "pricePlaceholder": true,
+      "stripeLink": "",
+      "disclaimer": null,
+      "id": "kid-monster",
+      "category": "fidget-toys",
+      "name": {
+        "he": "מפלצת מהציור",
+        "en": "Drawn monster"
+      },
+      "price": 99,
+      "material": {
+        "he": "PLA",
+        "en": "PLA"
+      },
+      "specs": [
+        {
+          "he": "גובה כ־10 ס״מ",
+          "en": "About 10 cm tall"
+        },
+        {
+          "he": "עד 4 צבעים",
+          "en": "Up to 4 colours"
+        }
+      ],
+      "images": [
+        "assets/img/products/kid-monster-1.webp",
+        "assets/img/products/kid-monster-2.webp",
+        "assets/img/products/kid-monster-3.webp",
+        "assets/img/products/kid-monster-plate-1.webp"
+      ],
+      "description": {
+        "he": "מפלצת צבעונית שהודפסה לפי ציור של ילד. אפשר להזמין גרסה לפי הציור שלכם.",
+        "en": "A colourful monster printed from a child's drawing. Order one from your own kid's drawing."
+      }
+    },
+    {
+      "placeholder": false,
+      "active": true,
+      "pricePlaceholder": true,
+      "stripeLink": "",
+      "disclaimer": null,
+      "id": "flexi-rex",
+      "category": "keychains",
+      "name": {
+        "he": "מחזיק מפתחות טי־רקס גמיש",
+        "en": "Flexi T-rex keychain"
+      },
+      "price": 25,
+      "material": {
+        "he": "PLA",
+        "en": "PLA"
+      },
+      "specs": [
+        {
+          "he": "עיצוב: LukesWorkshopBuilds · CC BY-SA 4.0",
+          "en": "Design: LukesWorkshopBuilds · CC BY-SA 4.0"
+        }
+      ],
+      "images": [
+        "assets/img/products/flexi-rex-1.webp",
+        "assets/img/products/flexi-rex-2.webp",
+        "assets/img/products/flexi-rex-plate.webp"
+      ],
+      "source": {
+        "makerworld": "https://makerworld.com/en/models/2326479",
+        "license": "CC BY-SA 4.0",
+        "designer": "LukesWorkshopBuilds"
+      },
+      "description": {
+        "he": "טי־רקס גמיש עם מפרקים שזזים, על טבעת מפתחות.",
+        "en": "A flexible T-rex with moving joints, on a key ring."
+      }
+    },
+    {
+      "placeholder": false,
+      "active": true,
+      "pricePlaceholder": true,
+      "stripeLink": "",
+      "disclaimer": null,
+      "id": "wall-pen-holder",
+      "category": "functional",
+      "name": {
+        "he": "מחזיק עטים לקיר",
+        "en": "Wall pen holder"
+      },
+      "price": 39,
+      "material": {
+        "he": "PLA",
+        "en": "PLA"
+      },
+      "specs": [
+        {
+          "he": "עיצוב: Hexavalent · CC BY 4.0",
+          "en": "Design: Hexavalent · CC BY 4.0"
+        }
+      ],
+      "images": [
+        "assets/img/products/wall-pen-holder-1.webp",
+        "assets/img/products/wall-pen-holder-2.webp"
+      ],
+      "source": {
+        "makerworld": "https://makerworld.com/en/models/810665",
+        "license": "CC BY 4.0",
+        "designer": "Hexavalent"
+      },
+      "description": {
+        "he": "מחזיק עטים שנצמד לקיר ומשאיר את השולחן פנוי. מתאים לטושים, עטים ועפרונות.",
+        "en": "A wall-mounted pen cup that keeps the desk clear. Fits markers, pens and pencils."
+      }
+    },
+    {
+      "placeholder": false,
+      "active": true,
+      "pricePlaceholder": true,
+      "stripeLink": "",
+      "disclaimer": null,
+      "id": "folding-box",
+      "category": "home",
+      "name": {
+        "he": "קופסה מתקפלת",
+        "en": "Folding box"
+      },
+      "price": 25,
+      "material": {
+        "he": "PLA",
+        "en": "PLA"
+      },
+      "specs": [
+        {
+          "he": "עיצוב: danny.prchal · CC BY-SA 4.0",
+          "en": "Design: danny.prchal · CC BY-SA 4.0"
+        }
+      ],
+      "images": [
+        "assets/img/products/folding-box-1.webp",
+        "assets/img/products/folding-box-2.webp",
+        "assets/img/products/folding-box-plate.webp"
+      ],
+      "source": {
+        "makerworld": "https://makerworld.com/en/models/3376079",
+        "license": "CC BY-SA 4.0",
+        "designer": "danny.prchal"
+      },
+      "description": {
+        "he": "קופסה שמודפסת שטוחה ומתקפלת לצורתה. מעולה לאריזת מתנה קטנה או לאחסון.",
+        "en": "A box that prints flat and folds into shape. Great for a small gift or for storage."
       }
     }
   ]
