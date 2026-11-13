@@ -17,31 +17,64 @@
   ],
   "products": [
     {
-      "id": "solder-feeder",
+      "id": "gyroscope",
       "active": true,
       "category_id": "gadgets",
-      "name_he": "מזין בדיל לפרק כף היד",
-      "name_en": "Wrist solder feeder",
-      "price_nis": 189,
+      "name_he": "ג'ירוסקופ שולחני",
+      "name_en": "Desk gyroscope",
+      "price_nis": 129,
       "price_placeholder": true,
       "currency": "ILS",
-      "material_he": "PETG",
-      "material_en": "PETG",
+      "material_he": "PLA",
+      "material_en": "PLA",
       "specs": [
         {
-          "he": "יחידת פרק כף היד + טבעת",
-          "en": "Wrist unit + finger ring"
+          "he": "120×100×136 מ״מ",
+          "en": "120×100×136 mm"
         },
         {
-          "he": "מנוע N20, 3×AAA",
-          "en": "N20 motor, 3×AAA"
+          "he": "כ־127 ג׳",
+          "en": "About 127 g"
         }
       ],
       "images": [
-        "assets/img/products/solder-feeder-1.webp",
-        "assets/img/products/solder-feeder-2.webp",
-        "assets/img/products/solder-feeder-3.webp",
-        "assets/img/products/solder-feeder-plate.webp"
+        "assets/img/products/gyroscope-1.webp",
+        "assets/img/products/gyroscope-2.webp",
+        "assets/img/products/gyroscope-plate-1.webp",
+        "assets/img/products/gyroscope-plate-2.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_original",
+      "source": "original"
+    },
+    {
+      "id": "cat-hideout",
+      "active": true,
+      "category_id": "gadgets",
+      "name_he": "מחבוא חתולים",
+      "name_en": "Cat hideout",
+      "price_nis": 349,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA עץ",
+      "material_en": "Wood-fill PLA",
+      "specs": [
+        {
+          "he": "400×440×250 מ״מ",
+          "en": "400×440×250 mm"
+        },
+        {
+          "he": "כ־700 ג׳",
+          "en": "About 700 g"
+        }
+      ],
+      "images": [
+        "assets/img/products/cat-hideout-1.webp",
+        "assets/img/products/cat-hideout-2.webp",
+        "assets/img/products/cat-hideout-plate-1.webp",
+        "assets/img/products/cat-hideout-plate-4.webp"
       ],
       "stripe_link": null,
       "disclaimer_he": null,
@@ -85,104 +118,35 @@
       "source": "original"
     },
     {
-      "id": "cat-hideout",
+      "id": "solder-feeder",
       "active": true,
       "category_id": "gadgets",
-      "name_he": "מחבוא חתולים",
-      "name_en": "Cat hideout",
-      "price_nis": 349,
-      "price_placeholder": true,
-      "currency": "ILS",
-      "material_he": "PLA עץ",
-      "material_en": "Wood-fill PLA",
-      "specs": [
-        {
-          "he": "400×440×250 מ״מ",
-          "en": "400×440×250 mm"
-        },
-        {
-          "he": "כ־700 ג׳",
-          "en": "About 700 g"
-        }
-      ],
-      "images": [
-        "assets/img/products/cat-hideout-1.webp",
-        "assets/img/products/cat-hideout-2.webp",
-        "assets/img/products/cat-hideout-plate-1.webp",
-        "assets/img/products/cat-hideout-plate-4.webp"
-      ],
-      "stripe_link": null,
-      "disclaimer_he": null,
-      "disclaimer_en": null,
-      "copyright_status": "cleared_original",
-      "source": "original"
-    },
-    {
-      "id": "gyroscope",
-      "active": true,
-      "category_id": "gadgets",
-      "name_he": "ג'ירוסקופ שולחני",
-      "name_en": "Desk gyroscope",
-      "price_nis": 129,
-      "price_placeholder": true,
-      "currency": "ILS",
-      "material_he": "PLA",
-      "material_en": "PLA",
-      "specs": [
-        {
-          "he": "120×100×136 מ״מ",
-          "en": "120×100×136 mm"
-        },
-        {
-          "he": "כ־127 ג׳",
-          "en": "About 127 g"
-        }
-      ],
-      "images": [
-        "assets/img/products/gyroscope-1.webp",
-        "assets/img/products/gyroscope-2.webp",
-        "assets/img/products/gyroscope-plate-1.webp",
-        "assets/img/products/gyroscope-plate-2.webp"
-      ],
-      "stripe_link": null,
-      "disclaimer_he": null,
-      "disclaimer_en": null,
-      "copyright_status": "cleared_original",
-      "source": "original"
-    },
-    {
-      "id": "skadis-rack",
-      "active": true,
-      "category_id": "gadgets",
-      "name_he": "מתקן כלים ללוח תואם IKEA SKÅDIS",
-      "name_en": "Tool rack compatible with IKEA SKÅDIS",
-      "price_nis": 79,
+      "name_he": "מזין בדיל לפרק כף היד",
+      "name_en": "Wrist solder feeder",
+      "price_nis": 189,
       "price_placeholder": true,
       "currency": "ILS",
       "material_he": "PETG",
       "material_en": "PETG",
       "specs": [
         {
-          "he": "200×63.5×60 מ״מ",
-          "en": "200×63.5×60 mm"
+          "he": "יחידת פרק כף היד + טבעת",
+          "en": "Wrist unit + finger ring"
         },
         {
-          "he": "4 תאים",
-          "en": "4 slots"
-        },
-        {
-          "he": "כ־100 ג׳",
-          "en": "About 100 g"
+          "he": "מנוע N20, 3×AAA",
+          "en": "N20 motor, 3×AAA"
         }
       ],
       "images": [
-        "assets/img/products/skadis-rack-1.webp",
-        "assets/img/products/skadis-rack-2.webp",
-        "assets/img/products/skadis-rack-plate.webp"
+        "assets/img/products/solder-feeder-1.webp",
+        "assets/img/products/solder-feeder-2.webp",
+        "assets/img/products/solder-feeder-3.webp",
+        "assets/img/products/solder-feeder-plate.webp"
       ],
       "stripe_link": null,
-      "disclaimer_he": "לא מיוצר, משווק או מאושר על ידי IKEA.",
-      "disclaimer_en": "Not made, sold, or endorsed by IKEA.",
+      "disclaimer_he": null,
+      "disclaimer_en": null,
       "copyright_status": "cleared_original",
       "source": "original"
     },
@@ -215,103 +179,6 @@
       "stripe_link": null,
       "disclaimer_he": "לא מיוצר, משווק או מאושר על ידי Apple.",
       "disclaimer_en": "Not made, sold, or endorsed by Apple.",
-      "copyright_status": "cleared_original",
-      "source": "original"
-    },
-    {
-      "id": "desk-hanger",
-      "active": true,
-      "category_id": "gadgets",
-      "name_he": "מתלים מתחת לשולחן למחשב נייד 14״",
-      "name_en": "Under-desk hangers for a 14-inch laptop",
-      "price_nis": 99,
-      "price_placeholder": true,
-      "currency": "ILS",
-      "material_he": "PETG",
-      "material_en": "PETG",
-      "specs": [
-        {
-          "he": "זוג",
-          "en": "Pair"
-        },
-        {
-          "he": "כ־140 ג׳",
-          "en": "About 140 g"
-        }
-      ],
-      "images": [
-        "assets/img/products/desk-hanger-1.webp",
-        "assets/img/products/desk-hanger-2.webp",
-        "assets/img/products/desk-hanger-plate.webp"
-      ],
-      "stripe_link": null,
-      "disclaimer_he": "לא מיוצר, משווק או מאושר על ידי Apple.",
-      "disclaimer_en": "Not made, sold, or endorsed by Apple.",
-      "copyright_status": "cleared_original",
-      "source": "original"
-    },
-    {
-      "id": "stand-cradle",
-      "active": true,
-      "category_id": "gadgets",
-      "name_he": "עריסה לקיר למעמד מחשב נייד אנכי",
-      "name_en": "Wall cradle for a vertical laptop stand",
-      "price_nis": 159,
-      "price_placeholder": true,
-      "currency": "ILS",
-      "material_he": "PETG",
-      "material_en": "PETG",
-      "specs": [
-        {
-          "he": "שני חלקים",
-          "en": "Two parts"
-        },
-        {
-          "he": "כ־320 ג׳",
-          "en": "About 320 g"
-        }
-      ],
-      "images": [
-        "assets/img/products/stand-cradle-1.webp",
-        "assets/img/products/stand-cradle-2.webp",
-        "assets/img/products/stand-cradle-plate.webp"
-      ],
-      "stripe_link": null,
-      "disclaimer_he": "לא מיוצר, משווק או מאושר על ידי Apple.",
-      "disclaimer_en": "Not made, sold, or endorsed by Apple.",
-      "copyright_status": "cleared_original",
-      "source": "original"
-    },
-    {
-      "id": "catgenie-grate",
-      "active": true,
-      "category_id": "gadgets",
-      "name_he": "רשת גרגירים תואמת CatGenie",
-      "name_en": "Granule grate compatible with CatGenie",
-      "price_nis": 59,
-      "price_placeholder": true,
-      "currency": "ILS",
-      "material_he": "PETG",
-      "material_en": "PETG",
-      "specs": [
-        {
-          "he": "150×150 מ״מ",
-          "en": "150×150 mm"
-        },
-        {
-          "he": "כ־117 ג׳",
-          "en": "About 117 g"
-        }
-      ],
-      "images": [
-        "assets/img/products/catgenie-grate-1.webp",
-        "assets/img/products/catgenie-grate-2.webp",
-        "assets/img/products/catgenie-grate-plate-1.webp",
-        "assets/img/products/catgenie-grate-plate-2.webp"
-      ],
-      "stripe_link": null,
-      "disclaimer_he": "לא מיוצר, משווק או מאושר על ידי CatGenie.",
-      "disclaimer_en": "Not made, sold, or endorsed by CatGenie.",
       "copyright_status": "cleared_original",
       "source": "original"
     },
@@ -349,6 +216,61 @@
       "source": "original"
     },
     {
+      "id": "wall-pen-holder",
+      "active": true,
+      "category_id": "gadgets",
+      "name_he": "מחזיק עטים לקיר",
+      "name_en": "Wall pen holder",
+      "price_nis": 39,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA",
+      "material_en": "PLA",
+      "specs": [
+        {
+          "he": "עיצוב: Hexavalent · CC BY 4.0",
+          "en": "Design: Hexavalent · CC BY 4.0"
+        }
+      ],
+      "images": [
+        "assets/img/products/wall-pen-holder-1.webp",
+        "assets/img/products/wall-pen-holder-2.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_license_CC_BY_4.0",
+      "source": "https://makerworld.com/en/models/810665"
+    },
+    {
+      "id": "folding-box",
+      "active": true,
+      "category_id": "gadgets",
+      "name_he": "קופסה מתקפלת",
+      "name_en": "Folding box",
+      "price_nis": 25,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA",
+      "material_en": "PLA",
+      "specs": [
+        {
+          "he": "עיצוב: danny.prchal · CC BY-SA 4.0",
+          "en": "Design: danny.prchal · CC BY-SA 4.0"
+        }
+      ],
+      "images": [
+        "assets/img/products/folding-box-1.webp",
+        "assets/img/products/folding-box-2.webp",
+        "assets/img/products/folding-box-plate.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_license_CC_BY-SA_4.0",
+      "source": "https://makerworld.com/en/models/3376079"
+    },
+    {
       "id": "kid-monster",
       "active": true,
       "category_id": "fridge-toys",
@@ -380,6 +302,90 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_original",
       "source": "original"
+    },
+    {
+      "id": "fidget-star",
+      "active": true,
+      "category_id": "fridge-toys",
+      "name_he": "כוכב פידג'ט",
+      "name_en": "Fidget star",
+      "price_nis": 29,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA",
+      "material_en": "PLA",
+      "specs": [
+        {
+          "he": "עיצוב: Silverromaldo · CC0",
+          "en": "Design: Silverromaldo · CC0"
+        }
+      ],
+      "images": [
+        "assets/img/products/fidget-star-1.webp",
+        "assets/img/products/fidget-star-2.webp",
+        "assets/img/products/fidget-star-plate.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_license_CC0",
+      "source": "https://makerworld.com/en/models/372777"
+    },
+    {
+      "id": "flexi-rex",
+      "active": true,
+      "category_id": "fridge-toys",
+      "name_he": "מחזיק מפתחות טי־רקס גמיש",
+      "name_en": "Flexi T-rex keychain",
+      "price_nis": 25,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA",
+      "material_en": "PLA",
+      "specs": [
+        {
+          "he": "עיצוב: LukesWorkshopBuilds · CC BY-SA 4.0",
+          "en": "Design: LukesWorkshopBuilds · CC BY-SA 4.0"
+        }
+      ],
+      "images": [
+        "assets/img/products/flexi-rex-1.webp",
+        "assets/img/products/flexi-rex-2.webp",
+        "assets/img/products/flexi-rex-plate.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_license_CC_BY-SA_4.0",
+      "source": "https://makerworld.com/en/models/2326479"
+    },
+    {
+      "id": "dragonfly-propeller",
+      "active": true,
+      "category_id": "fridge-toys",
+      "name_he": "פרופלור מעופף",
+      "name_en": "Hand-spin flying propeller",
+      "price_nis": 19,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA",
+      "material_en": "PLA",
+      "specs": [
+        {
+          "he": "עיצוב: uhltimate · CC BY-SA 4.0",
+          "en": "Design: uhltimate · CC BY-SA 4.0"
+        }
+      ],
+      "images": [
+        "assets/img/products/dragonfly-propeller-1.webp",
+        "assets/img/products/dragonfly-propeller-2.webp",
+        "assets/img/products/dragonfly-propeller-plate.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_license_CC_BY-SA_4.0",
+      "source": "https://makerworld.com/en/models/63106"
     }
   ]
 }
