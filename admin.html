@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin · Papaya Prints</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">דילוג לתוכן</a>
+  <div id="site-header"></div>
+  <main id="main">
+
+    <div class="wrap admin-login" data-login>
+      <h1 class="page-title">Admin</h1>
+      <p class="note" data-lang="he">הסיסמה נבדקת בדפדפן בלבד. זו אינה אבטחה אמיתית.</p>
+      <p class="note" data-lang="en" hidden>The password is checked in the browser only. This is not real security.</p>
+      <form class="form" data-login-form>
+        <label>סיסמה / Password <input type="password" name="password" required autocomplete="current-password"></label>
+        <button class="btn btn-primary" type="submit">OK</button>
+      </form>
+    </div>
+    <div class="wrap admin-app" data-app hidden>
+      <h1 class="page-title">Admin</h1>
+      <div class="admin-actions">
+        <button class="btn btn-primary" type="button" data-download>products.json</button>
+        <button class="btn btn-ghost" type="button" data-publish>GitHub</button>
+        <button class="btn btn-text" type="button" data-logout>Logout</button>
+      </div>
+      <p class="msg" data-admin-msg></p>
+      <form class="form admin-grid">
+        <label>WhatsApp <input name="whatsapp" type="text" inputmode="numeric" placeholder="9725…" dir="ltr"></label>
+        <label>Bit <input name="bitPhone" type="text" inputmode="numeric" placeholder="9725…" dir="ltr"></label>
+        <label>Stripe <input name="stripeMulti" type="url" placeholder="https://buy.stripe.com/…" dir="ltr"></label>
+        <label>₪ <input name="freeShip" type="number" min="0" step="1"></label>
+        <div data-shipping></div>
+        <label>GitHub token <input name="token" type="password" autocomplete="off" dir="ltr"></label>
+      </form>
+      <div data-products class="admin-grid"></div>
+    </div>
+
+  </main>
+  <div id="site-footer"></div>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/admin.js"></script>
+
+</body>
+</html>
