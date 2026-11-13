@@ -21,6 +21,6 @@ The live site is the `gh-pages` branch (contents of `site/`).
 3. Edit prices, Stripe payment links, Bit phone, WhatsApp, and shipping.
 4. Use **products.json** to download the file and replace `site/products.json`, or paste a GitHub token (repo scope) and press **GitHub** to publish. The token stays in the browser.
 
-Catalog data lives in `site/products.json`. Categories and products are arrays there; add or replace items when the real print list is ready. Placeholder items are marked `"placeholder": true`.
+Catalog data lives in `site/products.json`. A flat copy for a later Supabase table is in `catalog/supabase-products.json`. Prices are placeholder NIS estimates (shown as temporary in the UI) until Matias confirms them.
 
 Stripe links go on each product (`stripeLink`) or in `store.stripe.multiItemLink` for mixed carts. Create Payment Links in Stripe and paste the `https://buy.stripe.com/…` URLs. Do not put secret keys in the repo.
