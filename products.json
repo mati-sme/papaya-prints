@@ -59,7 +59,8 @@
       "cute-snakey",
       "cube-guy",
       "fidget-star"
-    ]
+    ],
+    "email": ""
   },
   "categories": [
     {
@@ -124,6 +125,186 @@
     }
   ],
   "products": [
+    {
+      "placeholder": false,
+      "active": true,
+      "pricePlaceholder": true,
+      "stripeLink": "",
+      "disclaimer": null,
+      "custom": true,
+      "id": "custom-fidget-toys",
+      "category": "fidget-toys",
+      "name": {
+        "he": "צעצוע פידג'ט בעיצוב אישי",
+        "en": "Custom-designed fidget toy"
+      },
+      "price": 49,
+      "material": {
+        "he": "PLA, PETG או TPU לפי הצורך",
+        "en": "PLA, PETG or TPU as needed"
+      },
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "description": {
+        "he": "צעצוע פידג'ט שאנחנו מעצבים לפי הבקשה שלכם: צורה, גודל וצבעים לבחירתכם, מודפס בחתיכה אחת. אחרי ההזמנה נחזור אליכם לתיאום העיצוב.",
+        "en": "A fidget toy we design to your request: your shape, size and colours, printed in one piece. After you order we'll get in touch to work out the design."
+      },
+      "images": [
+        "assets/img/products/custom-fidget-toys.webp"
+      ]
+    },
+    {
+      "placeholder": false,
+      "active": true,
+      "pricePlaceholder": true,
+      "stripeLink": "",
+      "disclaimer": null,
+      "custom": true,
+      "id": "custom-keychains",
+      "category": "keychains",
+      "name": {
+        "he": "מחזיק מפתחות בעיצוב אישי",
+        "en": "Custom-designed keychain"
+      },
+      "price": 39,
+      "material": {
+        "he": "PLA, PETG או TPU לפי הצורך",
+        "en": "PLA, PETG or TPU as needed"
+      },
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "description": {
+        "he": "מחזיק מפתחות שמעוצב לפי הבקשה שלכם: שם, צורה או דמות מציור. אחרי ההזמנה נחזור אליכם לתיאום העיצוב.",
+        "en": "A keychain designed to your request: a name, a shape or a character from a drawing. After you order we'll get in touch to work out the design."
+      },
+      "images": [
+        "assets/img/products/custom-keychains.webp"
+      ]
+    },
+    {
+      "placeholder": false,
+      "active": true,
+      "pricePlaceholder": true,
+      "stripeLink": "",
+      "disclaimer": null,
+      "custom": true,
+      "id": "custom-functional",
+      "category": "functional",
+      "name": {
+        "he": "פריט פונקציונלי בעיצוב אישי",
+        "en": "Custom-designed functional part"
+      },
+      "price": 69,
+      "material": {
+        "he": "PLA, PETG או TPU לפי הצורך",
+        "en": "PLA, PETG or TPU as needed"
+      },
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "description": {
+        "he": "חלק שימושי שאנחנו מתכננים לפי הצורך שלכם: מחזיק, תושבת, מתאם או חלק חלופי. שלחו מידות ותמונה ונחזור עם תכנון.",
+        "en": "A useful part we design for your need: a holder, mount, adapter or replacement piece. Send measurements and a photo and we'll come back with a design."
+      },
+      "images": [
+        "assets/img/products/custom-functional.webp"
+      ]
+    },
+    {
+      "placeholder": false,
+      "active": true,
+      "pricePlaceholder": true,
+      "stripeLink": "",
+      "disclaimer": null,
+      "custom": true,
+      "id": "custom-home",
+      "category": "home",
+      "name": {
+        "he": "פריט לבית בעיצוב אישי",
+        "en": "Custom-designed home item"
+      },
+      "price": 59,
+      "material": {
+        "he": "PLA, PETG או TPU לפי הצורך",
+        "en": "PLA, PETG or TPU as needed"
+      },
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "description": {
+        "he": "פריט לבית ולארגון שמעוצב לפי הבקשה שלכם: קופסה, מגש או מחזיק במידה המדויקת. אחרי ההזמנה נחזור אליכם לתיאום העיצוב.",
+        "en": "A home or organisation piece designed to your request: a box, tray or holder in the exact size. After you order we'll get in touch to work out the design."
+      },
+      "images": [
+        "assets/img/products/custom-home.webp"
+      ]
+    },
+    {
+      "placeholder": false,
+      "active": true,
+      "pricePlaceholder": true,
+      "stripeLink": "",
+      "disclaimer": null,
+      "custom": true,
+      "id": "custom-decoration",
+      "category": "decoration",
+      "name": {
+        "he": "פריט נוי בעיצוב אישי",
+        "en": "Custom-designed decor piece"
+      },
+      "price": 179,
+      "material": {
+        "he": "PLA, PETG או TPU לפי הצורך",
+        "en": "PLA, PETG or TPU as needed"
+      },
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "description": {
+        "he": "פריט נוי לשולחן או למדף שמעוצב לפי הבקשה שלכם, בצבעים ובגודל שתבחרו. אחרי ההזמנה נחזור אליכם לתיאום העיצוב.",
+        "en": "A decor piece for the desk or shelf designed to your request, in the colours and size you choose. After you order we'll get in touch to work out the design."
+      },
+      "images": [
+        "assets/img/products/custom-decoration.webp"
+      ]
+    },
     {
       "placeholder": false,
       "active": true,

@@ -36,7 +36,15 @@ const I18N = {
     design: "עיצוב", license: "רישיון", original: "עיצוב מקורי של Papaya Prints", material: "חומר", details: "פרטים",
     view: "לפרטים", madeBy: "מודפס בסטודיו ברעננה על Bambu Lab P2S.", rights: "כל הזכויות שמורות לעיצובים המקוריים.",
     footerAbout: "סטודיו קטן להדפסה תלת־ממדית ברעננה.", footerShop: "חנות", footerInfo: "מידע",
-    notFound: "המוצר לא נמצא", backToShop: "חזרה לחנות"
+    notFound: "המוצר לא נמצא", from: "החל מ־", designIt: "לעיצוב אישי", fullForm: "לטופס המלא, עם תמונה ופרטים",
+    rqEyebrow: "בקשת עיצוב אישי", rqTitle: "נעצב את זה בשבילכם.", rqSub: "ספרו לנו מה אתם צריכים. נחזור אליכם עם הצעת מחיר ותכנון לפני שמדפיסים משהו.",
+    rqContact: "פרטי קשר", rqItem: "הפריט", rqExtras: "פרטים נוספים", fPhone: "טלפון", fEmail: "דוא״ל (לא חובה)", fCat: "קטגוריה",
+    fWhat: "מה להכין?", fWhatPh: "תארו את הפריט: למה הוא משמש, איך הוא נראה, ממה הוא צריך להיות מורכב", fSize: "מידות משוערות", fSizePh: "לדוגמה: 8×4×2 ס״מ",
+    fMaterial: "חומר", mPla: "PLA (ברירת מחדל, לפריטים רגילים)", mPetg: "PETG (חזק ועמיד לחום)", mTpu: "TPU (גמיש)", mUnsure: "לא בטוח/ה, תמליצו לי",
+    fColor: "צבע", fColorPh: "לדוגמה: כתום ושחור", fQty: "כמות", fImg: "תמונת השראה (לא חובה)", fImgHint: "JPG או PNG, עד 4 תמונות. התמונות לא נשלחות אוטומטית; נבקש אותן בשיחה.",
+    fDeadline: "עד מתי צריך? (לא חובה)", fNotes: "הערות", fSubmit: "שליחת הבקשה", fReq: "שדה חובה", fBadPhone: "מספר טלפון לא תקין", fBadEmail: "כתובת דוא״ל לא תקינה", fBadDate: "התאריך כבר עבר",
+    okTitle: "הבקשה מוכנה", okWa: "פתחנו את WhatsApp עם הבקשה. צרפו שם את תמונות ההשראה ושלחו.", okNoWa: "הבקשה נשמרה במכשיר. העתיקו את ההודעה ושלחו לנו, או פתחו אותה במייל.",
+    okWaBtn: "פתיחה ב־WhatsApp", okMail: "פתיחה במייל", okNew: "בקשה חדשה", rqId: "מספר בקשה", fPhotos: "תמונות השראה", personal: "בעיצוב אישי", customLink: "לפרטים בטופס ההזמנה האישית", customAttr: "מעוצב ומודפס על ידי Papaya Prints לפי הבקשה שלכם.", personalTitle: "בעיצוב אישי", personalSub: "לא מצאתם בדיוק את מה שחיפשתם? נעצב את זה בשבילכם.", backToShop: "חזרה לחנות"
   },
   en: {
     skip: "Skip to content", cart: "Bag", addToCart: "Add to bag", added: "Added to bag", buyNow: "Buy now",
@@ -74,7 +82,15 @@ const I18N = {
     design: "Design", license: "License", original: "Original Papaya Prints design", material: "Material", details: "Details",
     view: "View", madeBy: "Printed in our Ra'anana studio on a Bambu Lab P2S.", rights: "All rights reserved for original designs.",
     footerAbout: "A small 3D printing studio in Ra'anana.", footerShop: "Shop", footerInfo: "Info",
-    notFound: "Product not found", backToShop: "Back to shop"
+    notFound: "Product not found", from: "from ", designIt: "Design it", fullForm: "Full form, with photo and details",
+    rqEyebrow: "Personal design request", rqTitle: "We'll design it for you.", rqSub: "Tell us what you need. We'll come back with a quote and a design before anything is printed.",
+    rqContact: "Contact", rqItem: "The item", rqExtras: "Extra details", fPhone: "Phone", fEmail: "Email (optional)", fCat: "Category",
+    fWhat: "What should we make?", fWhatPh: "Describe the item: what it's for, how it looks, what it attaches to", fSize: "Rough size", fSizePh: "e.g. 8×4×2 cm",
+    fMaterial: "Material", mPla: "PLA (default, everyday items)", mPetg: "PETG (strong, heat resistant)", mTpu: "TPU (flexible)", mUnsure: "Not sure, recommend one",
+    fColor: "Colour", fColorPh: "e.g. orange and black", fQty: "Quantity", fImg: "Reference image (optional)", fImgHint: "JPG or PNG, up to 4 images. Images aren't sent automatically; we'll ask for them in the chat.",
+    fDeadline: "Needed by (optional)", fNotes: "Notes", fSubmit: "Send request", fReq: "Required", fBadPhone: "Phone number looks wrong", fBadEmail: "Email looks wrong", fBadDate: "That date has passed",
+    okTitle: "Your request is ready", okWa: "We opened WhatsApp with your request. Attach your reference images there and send.", okNoWa: "Your request is saved on this device. Copy the message and send it to us, or open it in email.",
+    okWaBtn: "Open in WhatsApp", okMail: "Open in email", okNew: "New request", rqId: "Request no.", fPhotos: "Reference images", personal: "Personal design", customLink: "Details in the custom-order form", customAttr: "Designed and printed by Papaya Prints to your request.", personalTitle: "Personal design", personalSub: "Didn't find exactly what you wanted? We'll design it for you.", backToShop: "Back to shop"
   }
 };
 
@@ -318,6 +334,7 @@ const App = (() => {
 
   /* ---------- product UI ---------- */
   function sourceLine(p) {
+    if (p.custom) return `<p class="attr">${t("customAttr")}</p>`;
     if (!p.source) return `<p class="attr">${t("original")}</p>`;
     const lic = p.source.license;
     const licUrl = LICENSE_URL[lic];
@@ -326,17 +343,36 @@ const App = (() => {
   function specsList(p) {
     return (p.specs || []).filter((s) => !/^(עיצוב|Design):/.test(loc(s))).map(loc);
   }
+  function customHref(p) { return "custom.html?category=" + encodeURIComponent(p.category); }
+  function customSlot(realCount) {
+    // 1 real item -> position 2; ~5+ total -> around position 5; otherwise the middle
+    if (realCount <= 1) return 1;
+    if (realCount + 1 >= 8) return 4;
+    return Math.ceil(realCount / 2) + (realCount + 1 >= 6 ? 1 : 0);
+  }
   function productCard(p, i = 0) {
     const c = category(p.category);
+    if (p.custom) return `
+      <li class="card is-custom" data-cat="${escapeHtml(p.category)}" data-pid="${escapeHtml(p.id)}" data-reveal style="--d:${(i % 4) * 60}ms">
+        <a class="card-link" href="${customHref(p)}">
+          <div class="card-media"><img src="${escapeHtml(p.images[0] || "")}" alt="" loading="lazy" decoding="async" width="800" height="800"></div>
+          <div class="card-body">
+            <span class="card-cat"><span class="badge">${t("personal")}</span></span>
+            <h3 class="card-name">${escapeHtml(loc(p.name))}</h3>
+            <p class="card-price"><span class="from">${t("from")}</span>${formatPrice(p.price, p.pricePlaceholder)}</p>
+          </div>
+        </a>
+        <a class="card-add" href="${customHref(p)}" aria-label="${t("designIt")}: ${escapeHtml(loc(p.name))}">${ICON.arrow}</a>
+      </li>`;
     return `
-      <li class="card" data-cat="${escapeHtml(p.category)}" data-reveal style="--d:${(i % 4) * 60}ms">
+      <li class="card" data-cat="${escapeHtml(p.category)}" data-pid="${escapeHtml(p.id)}" data-reveal style="--d:${(i % 4) * 60}ms">
         <a class="card-link" href="product.html?id=${encodeURIComponent(p.id)}" data-open-product="${escapeHtml(p.id)}">
           <div class="card-media">
             <img src="${escapeHtml(p.images[0] || "")}" alt="" loading="lazy" decoding="async" width="800" height="800">
             ${p.images[1] ? `<img class="card-alt" src="${escapeHtml(p.images[1])}" alt="" loading="lazy" decoding="async" width="800" height="800">` : ""}
           </div>
           <div class="card-body">
-            <span class="card-cat">${escapeHtml(loc(c?.name))}</span>
+            <span class="card-cat">${p.custom ? `<span class="badge">${t("personal")}</span>` : escapeHtml(loc(c?.name))}</span>
             <h3 class="card-name">${escapeHtml(loc(p.name))}</h3>
             <p class="card-price">${formatPrice(p.price, p.pricePlaceholder)}</p>
           </div>
@@ -371,6 +407,7 @@ const App = (() => {
             <button type="button" class="btn btn-primary btn-grow" data-add>${t("addToCart")}</button>
           </div>
           <button type="button" class="btn btn-secondary btn-block" data-buy>${t("buyNow")}</button>
+          ${p.custom ? `<a class="custom-link" href="${currentPage === "home" ? "" : "index.html"}#custom" data-to-custom>${t("customLink")} ${ICON.arrow}</a>` : ""}
           <div class="detail-meta">
             <h2>${t("details")}</h2>
             <ul class="specs">${specs}</ul>
@@ -422,6 +459,7 @@ const App = (() => {
   function openSheet(id, push = true) {
     const p = product(id);
     const dlg = $("[data-sheet]");
+    if (p && p.custom) { location.href = customHref(p); return; }
     if (!p || !dlg || typeof dlg.showModal !== "function") { location.href = "product.html?id=" + encodeURIComponent(id); return; }
     const body = $("[data-sheet-body]", dlg);
     body.innerHTML = `<button type="button" class="icon-btn sheet-close" data-sheet-close aria-label="${t("close")}">${ICON.close}</button><div class="sheet-grab" aria-hidden="true"></div>` + detailHTML(p, true);
@@ -483,6 +521,7 @@ const App = (() => {
           paintDrawer();
         }
       }
+      if (e.target.closest?.("[data-to-custom]") && $("[data-sheet]")?.open && currentPage === "home") { e.preventDefault(); closeSheet(); setTimeout(() => $("#custom")?.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }), 350); return; }
       if (e.target.matches?.("[data-sheet]")) closeSheet();
     });
     document.addEventListener("change", (e) => {
@@ -549,7 +588,16 @@ const App = (() => {
     const apply = (id, animate) => {
       $$(".chip").forEach((c) => { const on = c.dataset.chip === id; c.classList.toggle("is-active", on); c.setAttribute("aria-selected", on); });
       const cards = $$(".card", grid);
-      const run = () => cards.forEach((c) => { c.hidden = !!id && c.dataset.cat !== id; });
+      const run = () => {
+        grid.dataset.filter = id || "";
+        cards.forEach((c) => { c.hidden = !!id && c.dataset.cat !== id; });
+        const shown = cards.filter((c) => !c.hidden);
+        const real = shown.filter((c) => !c.classList.contains("is-custom"));
+        const customs = shown.filter((c) => c.classList.contains("is-custom"));
+        real.forEach((c, k) => { c.style.order = String(k * 10); });
+        if (id) customs.forEach((c) => { c.style.order = String(customSlot(real.length) * 10 - 5); });
+        else customs.forEach((c, k) => { c.style.order = String(1000 + k); });
+      };
       if (animate && !reduceMotion) {
         grid.classList.add("is-switching");
         setTimeout(() => { run(); grid.classList.remove("is-switching"); }, 160);
@@ -628,6 +676,7 @@ const App = (() => {
             <label class="field"><span>${t("cIdea")}</span><textarea name="idea" rows="4" required placeholder="${escapeHtml(t("cIdeaPh"))}"></textarea></label>
             <label class="field"><span>${t("cSize")}</span><input name="size" type="text"></label>
             <button class="btn btn-primary btn-block btn-lg" type="submit">${wa ? ICON.wa + " " + t("cSend") : t("cPrepare")}</button>
+            <a class="custom-link" href="custom.html">${t("fullForm")} ${ICON.arrow}</a>
             <div class="custom-out" data-custom-out hidden></div>
           </form>
         </div>
@@ -668,15 +717,166 @@ const App = (() => {
     if (c) document.title = loc(c.name) + " · Papaya Prints";
   }
 
+  function renderCustomPage() {
+    const main = $("#main");
+    const cats = (data.categories || []).filter((c) => productsIn(c.id).length);
+    const pre = param("category");
+    const item = activeProducts().find((p) => p.custom && p.category === pre);
+    const today = new Date().toISOString().slice(0, 10);
+    const opt = (v, label, sel) => `<option value="${escapeHtml(v)}" ${sel ? "selected" : ""}>${escapeHtml(label)}</option>`;
+    const err = (n) => `<span class="f-err" id="err-${n}" aria-live="polite"></span>`;
+    main.innerHTML = `
+      <section class="rq">
+        <div class="wrap rq-grid">
+          <aside class="rq-side" data-reveal>
+            <p class="eyebrow">${t("rqEyebrow")}</p>
+            <h1 class="h-section">${t("rqTitle")}</h1>
+            <p class="lede">${t("rqSub")}</p>
+            <div class="rq-preview" data-rq-preview>${item ? `<img src="${escapeHtml(item.images[0])}" alt=""><div><span class="badge">${t("personal")}</span><strong>${escapeHtml(loc(item.name))}</strong><span>${t("from")}${formatPrice(item.price, item.pricePlaceholder)}</span></div>` : ""}</div>
+            <ol class="steps">${["s1", "s2", "s3"].map((k, i) => `<li><span class="step-n" dir="ltr">0${i + 1}</span><div><h3>${t(k + "t")}</h3><p>${t(k + "d")}</p></div></li>`).join("")}</ol>
+          </aside>
+          <div class="rq-main">
+            <form class="rq-form" data-rq-form novalidate data-reveal style="--d:80ms">
+              <fieldset><legend>${t("rqContact")}</legend>
+                <div class="f-row">
+                  <label class="field"><span>${t("cName")} *</span><input name="name" autocomplete="name" required aria-describedby="err-name">${err("name")}</label>
+                  <label class="field"><span>${t("fPhone")} *</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" dir="ltr" required aria-describedby="err-phone">${err("phone")}</label>
+                </div>
+                <label class="field"><span>${t("fEmail")}</span><input name="email" type="email" autocomplete="email" dir="ltr" aria-describedby="err-email">${err("email")}</label>
+              </fieldset>
+              <fieldset><legend>${t("rqItem")}</legend>
+                <label class="field"><span>${t("fCat")}</span><select name="category" data-rq-cat>${cats.map((c) => opt(c.id, loc(c.name), c.id === pre)).join("")}${opt("other", lang === "he" ? "אחר" : "Other", !cats.some((c) => c.id === pre))}</select></label>
+                <label class="field"><span>${t("fWhat")} *</span><textarea name="what" rows="5" required minlength="10" placeholder="${escapeHtml(t("fWhatPh"))}" aria-describedby="err-what"></textarea>${err("what")}</label>
+                <div class="f-row">
+                  <label class="field"><span>${t("fSize")}</span><input name="size" placeholder="${escapeHtml(t("fSizePh"))}"></label>
+                  <label class="field"><span>${t("fQty")} *</span><input name="qty" type="number" min="1" max="500" value="1" required inputmode="numeric" aria-describedby="err-qty">${err("qty")}</label>
+                </div>
+                <div class="f-row">
+                  <label class="field"><span>${t("fMaterial")}</span><select name="material">${opt("PLA", t("mPla"), true)}${opt("PETG", t("mPetg"))}${opt("TPU", t("mTpu"))}${opt("?", t("mUnsure"))}</select></label>
+                  <label class="field"><span>${t("fColor")}</span><input name="color" placeholder="${escapeHtml(t("fColorPh"))}"></label>
+                </div>
+              </fieldset>
+              <fieldset><legend>${t("rqExtras")}</legend>
+                <div class="field"><span>${t("fImg")}</span>
+                  <label class="drop" data-drop><input type="file" name="images" accept="image/*" multiple data-rq-file><span class="drop-ic">${ICON.plus}</span><span class="drop-t">${lang === "he" ? "בחירת תמונות או גרירה לכאן" : "Choose images or drop them here"}</span></label>
+                  <div class="thumbs-prev" data-rq-thumbs></div>
+                  <small class="muted">${t("fImgHint")}</small>
+                </div>
+                <label class="field"><span>${t("fDeadline")}</span><input name="deadline" type="date" min="${today}" aria-describedby="err-deadline">${err("deadline")}</label>
+                <label class="field"><span>${t("fNotes")}</span><textarea name="notes" rows="3"></textarea></label>
+              </fieldset>
+              <button class="btn btn-primary btn-lg btn-block" type="submit">${t("fSubmit")}</button>
+            </form>
+            <div class="rq-done" data-rq-done hidden tabindex="-1"></div>
+          </div>
+        </div>
+      </section>`;
+    document.title = t("rqEyebrow") + " · Papaya Prints";
+    const form = $("[data-rq-form]");
+    const files = [];
+    const thumbs = $("[data-rq-thumbs]");
+    const paintThumbs = () => {
+      thumbs.innerHTML = files.map((f, i) => `<figure><img src="${f.url}" alt=""><button type="button" data-rm-img="${i}" aria-label="${t("remove")}">${ICON.close}</button></figure>`).join("");
+    };
+    const addFiles = (list) => {
+      [...list].filter((f) => f.type.startsWith("image/")).slice(0, 4 - files.length).forEach((f) => files.push({ name: f.name, url: URL.createObjectURL(f) }));
+      paintThumbs();
+    };
+    $("[data-rq-file]").addEventListener("change", (e) => { addFiles(e.target.files); e.target.value = ""; });
+    const drop = $("[data-drop]");
+    ["dragenter", "dragover"].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add("is-over"); }));
+    ["dragleave", "drop"].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove("is-over"); }));
+    drop.addEventListener("drop", (e) => addFiles(e.dataTransfer.files));
+    thumbs.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-rm-img]"); if (!b) return;
+      URL.revokeObjectURL(files[b.dataset.rmImg].url); files.splice(Number(b.dataset.rmImg), 1); paintThumbs();
+    });
+    $("[data-rq-cat]").addEventListener("change", (e) => {
+      const it = activeProducts().find((p) => p.custom && p.category === e.target.value);
+      const prev = $("[data-rq-preview]");
+      prev.innerHTML = it ? `<img src="${escapeHtml(it.images[0])}" alt=""><div><span class="badge">${t("personal")}</span><strong>${escapeHtml(loc(it.name))}</strong><span>${t("from")}${formatPrice(it.price, it.pricePlaceholder)}</span></div>` : "";
+      history.replaceState(null, "", "custom.html?category=" + encodeURIComponent(e.target.value));
+    });
+    const setErr = (name, msg) => {
+      const el = form.elements[name]; const box = $("#err-" + name);
+      if (el) { el.toggleAttribute("aria-invalid", !!msg); el.closest(".field")?.classList.toggle("has-err", !!msg); }
+      if (box) box.textContent = msg || "";
+      return !msg;
+    };
+    const validate = () => {
+      const v = (n) => String(form.elements[n].value || "").trim();
+      const ok = [
+        setErr("name", v("name").length < 2 ? t("fReq") : ""),
+        setErr("phone", !v("phone") ? t("fReq") : (/^\+?[0-9\s\-()]{9,16}$/.test(v("phone")) ? "" : t("fBadPhone"))),
+        setErr("email", v("email") && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v("email")) ? t("fBadEmail") : ""),
+        setErr("what", v("what").length < 10 ? t("fReq") : ""),
+        setErr("qty", !(Number(v("qty")) >= 1) ? t("fReq") : ""),
+        setErr("deadline", v("deadline") && v("deadline") < today ? t("fBadDate") : "")
+      ];
+      return ok.every(Boolean);
+    };
+    form.addEventListener("input", (e) => { if (e.target.closest(".has-err")) validate(); });
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      if (!validate()) { form.querySelector("[aria-invalid]")?.focus(); return; }
+      const fd = new FormData(form);
+      const g = (n) => String(fd.get(n) || "").trim();
+      const catName = loc(category(g("category"))?.name) || (lang === "he" ? "אחר" : "Other");
+      const id = "RQ-" + makeOrderId().slice(3);
+      const lines = [
+        lang === "he" ? "היי Papaya Prints, בקשה לעיצוב אישי" : "Hi Papaya Prints, a personal design request",
+        `${t("rqId")}: ${id}`,
+        `${t("cName")}: ${g("name")}`, `${t("fPhone")}: ${g("phone")}`, g("email") && `${t("fEmail").replace(/ \(.*\)/, "")}: ${g("email")}`,
+        `${t("fCat")}: ${catName}`, `${t("fWhat")} ${g("what")}`,
+        g("size") && `${t("fSize")}: ${g("size")}`, `${t("fQty")}: ${g("qty")}`,
+        `${t("fMaterial")}: ${g("material") === "?" ? t("mUnsure") : g("material")}`, g("color") && `${t("fColor")}: ${g("color")}`,
+        g("deadline") && `${t("fDeadline").replace(/ \(.*\)/, "").replace(/\?$/, "")}: ${g("deadline")}`,
+        g("notes") && `${t("fNotes")}: ${g("notes")}`,
+        files.length && `${t("fPhotos")}: ${files.length} (${files.map((f) => f.name).join(", ")})`
+      ].filter(Boolean);
+      const msg = lines.join("\n");
+      try {
+        const all = JSON.parse(localStorage.getItem("papaya-requests") || "[]");
+        all.push({ id, created: new Date().toISOString(), message: msg });
+        localStorage.setItem("papaya-requests", JSON.stringify(all));
+      } catch {}
+      const wa = data.store.whatsapp || "";
+      const email = data.store.email || "";
+      const waUrl = wa ? "https://wa.me/" + wa + "?text=" + encodeURIComponent(msg) : "";
+      const mailUrl = "mailto:" + encodeURIComponent(email) + "?subject=" + encodeURIComponent("Papaya Prints · " + id) + "&body=" + encodeURIComponent(msg);
+      if (waUrl) window.open(waUrl, "_blank", "noopener");
+      const done = $("[data-rq-done]");
+      form.hidden = true; done.hidden = false;
+      done.innerHTML = `
+        <span class="done-ic">${ICON.check}</span>
+        <h2 class="h-small">${t("okTitle")}</h2>
+        <p class="muted"><span>${t("rqId")}:</span> <strong dir="ltr">${id}</strong></p>
+        <p>${wa ? t("okWa") : t("okNoWa")}</p>
+        <pre dir="auto" data-rq-msg>${escapeHtml(msg)}</pre>
+        <div class="done-actions">
+          ${waUrl ? `<a class="btn btn-primary" href="${waUrl}" target="_blank" rel="noopener">${ICON.wa} ${t("okWaBtn")}</a>` : ""}
+          <button type="button" class="btn ${waUrl ? "btn-secondary" : "btn-primary"}" data-rq-copy>${t("copy")}</button>
+          <a class="btn btn-secondary" href="${mailUrl}">${t("okMail")}</a>
+          <button type="button" class="btn btn-quiet" data-rq-new>${t("okNew")}</button>
+        </div>`;
+      done.focus();
+      done.scrollIntoView({ block: "start", behavior: reduceMotion ? "auto" : "smooth" });
+      $("[data-rq-copy]", done).addEventListener("click", (ev) => { navigator.clipboard?.writeText(msg); ev.currentTarget.innerHTML = `${ICON.check} ${t("copied")}`; });
+      $("[data-rq-new]", done).addEventListener("click", () => { form.reset(); files.splice(0); paintThumbs(); done.hidden = true; form.hidden = false; });
+    });
+  }
+
   function renderProduct() {
     const p = product(param("id"));
     const main = $("#main");
+    if (p && p.custom) { location.replace(customHref(p)); return; }
     if (!p || p.active === false) {
       main.innerHTML = `<div class="wrap empty-page"><h1 class="h-section">${t("notFound")}</h1><a class="btn btn-primary" href="index.html#shop">${t("backToShop")}</a></div>`;
       return;
     }
     const c = category(p.category);
-    const related = activeProducts().filter((x) => x.id !== p.id && x.category === p.category).concat(activeProducts().filter((x) => x.id !== p.id && x.category !== p.category)).slice(0, 4);
+    const pool = activeProducts().filter((x) => x.id !== p.id && !x.custom);
+    const related = pool.filter((x) => x.category === p.category).concat(pool.filter((x) => x.category !== p.category)).slice(0, 4);
     main.innerHTML = `
       <div class="wrap crumbs"><a href="index.html#shop">${t("shop")}</a><span aria-hidden="true">/</span>${c ? `<a href="category.html?id=${encodeURIComponent(c.id)}">${escapeHtml(loc(c.name))}</a>` : ""}</div>
       <div class="wrap">${detailHTML(p, false)}</div>
@@ -846,6 +1046,7 @@ const App = (() => {
     else if (page === "product") renderProduct();
     else if (page === "checkout") renderCheckout();
     else if (page === "order") renderOrder();
+    else if (page === "custom") renderCustomPage();
     else if (page === "legal") {
       $$("[data-lang]").forEach((el) => { el.hidden = el.dataset.lang !== lang; });
     }
