@@ -45,6 +45,181 @@
   ],
   "products": [
     {
+      "id": "custom-fidget-toys",
+      "active": true,
+      "category_id": "fidget-toys",
+      "name_he": "צעצוע פידג'ט בעיצוב אישי",
+      "name_en": "Custom-designed fidget toy",
+      "description_he": "צעצוע פידג'ט שאנחנו מעצבים לפי הבקשה שלכם: צורה, גודל וצבעים לבחירתכם, מודפס בחתיכה אחת. אחרי ההזמנה נחזור אליכם לתיאום העיצוב.",
+      "description_en": "A fidget toy we design to your request: your shape, size and colours, printed in one piece. After you order we'll get in touch to work out the design.",
+      "price_nis": 49,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA, PETG או TPU לפי הצורך",
+      "material_en": "PLA, PETG or TPU as needed",
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "images": [
+        "assets/img/products/custom-fidget-toys.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_original",
+      "source": "custom",
+      "designer": null,
+      "is_custom": true,
+      "sort_order": 0
+    },
+    {
+      "id": "custom-keychains",
+      "active": true,
+      "category_id": "keychains",
+      "name_he": "מחזיק מפתחות בעיצוב אישי",
+      "name_en": "Custom-designed keychain",
+      "description_he": "מחזיק מפתחות שמעוצב לפי הבקשה שלכם: שם, צורה או דמות מציור. אחרי ההזמנה נחזור אליכם לתיאום העיצוב.",
+      "description_en": "A keychain designed to your request: a name, a shape or a character from a drawing. After you order we'll get in touch to work out the design.",
+      "price_nis": 39,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA, PETG או TPU לפי הצורך",
+      "material_en": "PLA, PETG or TPU as needed",
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "images": [
+        "assets/img/products/custom-keychains.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_original",
+      "source": "custom",
+      "designer": null,
+      "is_custom": true,
+      "sort_order": 0
+    },
+    {
+      "id": "custom-functional",
+      "active": true,
+      "category_id": "functional",
+      "name_he": "פריט פונקציונלי בעיצוב אישי",
+      "name_en": "Custom-designed functional part",
+      "description_he": "חלק שימושי שאנחנו מתכננים לפי הצורך שלכם: מחזיק, תושבת, מתאם או חלק חלופי. שלחו מידות ותמונה ונחזור עם תכנון.",
+      "description_en": "A useful part we design for your need: a holder, mount, adapter or replacement piece. Send measurements and a photo and we'll come back with a design.",
+      "price_nis": 69,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA, PETG או TPU לפי הצורך",
+      "material_en": "PLA, PETG or TPU as needed",
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "images": [
+        "assets/img/products/custom-functional.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_original",
+      "source": "custom",
+      "designer": null,
+      "is_custom": true,
+      "sort_order": 0
+    },
+    {
+      "id": "custom-home",
+      "active": true,
+      "category_id": "home",
+      "name_he": "פריט לבית בעיצוב אישי",
+      "name_en": "Custom-designed home item",
+      "description_he": "פריט לבית ולארגון שמעוצב לפי הבקשה שלכם: קופסה, מגש או מחזיק במידה המדויקת. אחרי ההזמנה נחזור אליכם לתיאום העיצוב.",
+      "description_en": "A home or organisation piece designed to your request: a box, tray or holder in the exact size. After you order we'll get in touch to work out the design.",
+      "price_nis": 59,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA, PETG או TPU לפי הצורך",
+      "material_en": "PLA, PETG or TPU as needed",
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "images": [
+        "assets/img/products/custom-home.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_original",
+      "source": "custom",
+      "designer": null,
+      "is_custom": true,
+      "sort_order": 0
+    },
+    {
+      "id": "custom-decoration",
+      "active": true,
+      "category_id": "decoration",
+      "name_he": "פריט נוי בעיצוב אישי",
+      "name_en": "Custom-designed decor piece",
+      "description_he": "פריט נוי לשולחן או למדף שמעוצב לפי הבקשה שלכם, בצבעים ובגודל שתבחרו. אחרי ההזמנה נחזור אליכם לתיאום העיצוב.",
+      "description_en": "A decor piece for the desk or shelf designed to your request, in the colours and size you choose. After you order we'll get in touch to work out the design.",
+      "price_nis": 179,
+      "price_placeholder": true,
+      "currency": "ILS",
+      "material_he": "PLA, PETG או TPU לפי הצורך",
+      "material_en": "PLA, PETG or TPU as needed",
+      "specs": [
+        {
+          "he": "עיצוב לפי בקשה",
+          "en": "Designed to your request"
+        },
+        {
+          "he": "המחיר הוא מחיר התחלתי ויאושר מראש",
+          "en": "Starting price, confirmed with you before printing"
+        }
+      ],
+      "images": [
+        "assets/img/products/custom-decoration.webp"
+      ],
+      "stripe_link": null,
+      "disclaimer_he": null,
+      "disclaimer_en": null,
+      "copyright_status": "cleared_original",
+      "source": "custom",
+      "designer": null,
+      "is_custom": true,
+      "sort_order": 0
+    },
+    {
       "id": "gyroscope",
       "active": true,
       "category_id": "decoration",
@@ -78,7 +253,9 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_original",
       "source": "original",
-      "designer": null
+      "designer": null,
+      "is_custom": false,
+      "sort_order": 10
     },
     {
       "id": "cute-snakey",
@@ -113,7 +290,9 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_license_CC0",
       "source": "https://makerworld.com/en/models/1925739",
-      "designer": "Amanda Roos"
+      "designer": "Amanda Roos",
+      "is_custom": false,
+      "sort_order": 10
     },
     {
       "id": "fidget-star",
@@ -144,7 +323,9 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_license_CC0",
       "source": "https://makerworld.com/en/models/372777",
-      "designer": "Silverromaldo"
+      "designer": "Silverromaldo",
+      "is_custom": false,
+      "sort_order": 10
     },
     {
       "id": "cube-guy",
@@ -179,7 +360,9 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_license_CC_BY_4.0",
       "source": "https://makerworld.com/en/models/183662",
-      "designer": "Lucky 13 Toys (soozafone)"
+      "designer": "Lucky 13 Toys (soozafone)",
+      "is_custom": false,
+      "sort_order": 10
     },
     {
       "id": "dragonfly-propeller",
@@ -210,7 +393,9 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_license_CC_BY-SA_4.0",
       "source": "https://makerworld.com/en/models/63106",
-      "designer": "uhltimate"
+      "designer": "uhltimate",
+      "is_custom": false,
+      "sort_order": 10
     },
     {
       "id": "kid-monster",
@@ -246,7 +431,9 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_original",
       "source": "original",
-      "designer": null
+      "designer": null,
+      "is_custom": false,
+      "sort_order": 10
     },
     {
       "id": "flexi-rex",
@@ -277,7 +464,9 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_license_CC_BY-SA_4.0",
       "source": "https://makerworld.com/en/models/2326479",
-      "designer": "LukesWorkshopBuilds"
+      "designer": "LukesWorkshopBuilds",
+      "is_custom": false,
+      "sort_order": 10
     },
     {
       "id": "wall-pen-holder",
@@ -307,7 +496,9 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_license_CC_BY_4.0",
       "source": "https://makerworld.com/en/models/810665",
-      "designer": "Hexavalent"
+      "designer": "Hexavalent",
+      "is_custom": false,
+      "sort_order": 10
     },
     {
       "id": "folding-box",
@@ -338,7 +529,9 @@
       "disclaimer_en": null,
       "copyright_status": "cleared_license_CC_BY-SA_4.0",
       "source": "https://makerworld.com/en/models/3376079",
-      "designer": "danny.prchal"
+      "designer": "danny.prchal",
+      "is_custom": false,
+      "sort_order": 10
     }
   ]
 }
